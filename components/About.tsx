@@ -14,9 +14,9 @@ function About() {
     >
       <h1>About me</h1>
       <p className="mb-3">
-        After graduating with a degree in{" "}
-        <span className="font-medium">Accounting</span>, I decided to pursue my
-        passion for programming. I enrolled in a coding bootcamp and learned{" "}
+      Hello! My name is{" "}
+        <span className="font-medium">Shreya</span>. I am a soon-to-be Computer Science graduate,
+        currently finishing up my final few courses at UCSC. I have a great passion for programming and exploring and building new things.{" "}
         <span className="font-medium">full-stack web development</span>.{" "}
         <span className="italic">My favorite part of programming</span> is the
         problem-solving aspect. I <span className="underline">love</span> the

@@ -30,7 +30,7 @@ export const links = [
   },
 ] as const;
 
-export const experiencesData = [
+export const experiences = [
   {
     title: "Student",
     company: "University of California, Santa Cruz",
@@ -60,31 +60,50 @@ export const experiencesData = [
   },
 ] as const;
 
-export const projectsData = [
+export const projects = [
   {
-    title: "CorpComment",
+    title: "Schmidt-Samoa Cryptography",
+    category: "C",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    //imageUrl: ,
+      "Large integers, which are difficult to factor, are used to generate a public-private key pair. The public key is used to encrypt a file, and the encrypted file can only be decrypted by using the respective private key.",
+    tools: ["C", "Linux"],
+    link: "https://github.com/shreyasun/lz-compression"
   },
   {
-    title: "rmtDev",
+    title: "Lempel-Ziv Data Compression",
+    category: "C",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    //imageUrl: ,
+      "Lossless data compression algorithm that stores recurring patterns of data in a dictionary, compressing the data input. Decompression reconstructs original data using these encoded dictionary references.",
+    tools: ["C", "Linux"],
+    link: "https://github.com/shreyasun/ss-cryptography"
   },
   {
-    title: "Word Analytics",
+    title: "Jeopardy Maker",
+    category: "Full Stack",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    //imageUrl: ,
+      "Jeopardy! is one of the most popular American game shows. In this interactive Jeopardy Maker tool, users can create trivia cards to be rendered into an interactive Jeopardy Board. ",
+    tools: ["React", "Node", "Express", "MongoDB", "Firebase"],
+    link: "https://github.com/shreyasun/jeopardy-maker"
+  },
+  {
+    title: "Bloom",
+    category: "Product",
+    description:
+      "Minimally designed secondhand clothing website that simplifies the shopping experience, allowing user to easily find what they're looking for, get the information they require without being overwhelmed, and check out without too many steps.",
+    tools: ["Figma", "Google Workspace", "Notion"],
+    link: ""
+  },
+  {
+    title: "Mon Ami",
+    category: "Product",
+    description:
+      "All-in-one mental wellness platform that provides users access to mental health content and the opportunity to build connections and interact with individuals and groups in a supportive community.",
+    tools: ["Figma", "Google Workspace", "Notion"],
+    link: ""
   },
 ] as const;
 
-export const skillsData = [
+export const skills = [
   "HTML",
   "CSS",
   "JavaScript",
@@ -98,10 +117,22 @@ export const skillsData = [
   "Express",
   "MySQL",
   "Python",
+  "PyTorch",
   "C",
   "C++",
   "Java",
   "SQL",
   "Docker",
   "Amazon Web Services",
+  "Figma"
+] as const;
+
+
+export const categories = [
+  "Full Stack",
+  "C",
+  "Data",
+  "Machine Learning",
+  "Product",
+  "Other"
 ] as const;
