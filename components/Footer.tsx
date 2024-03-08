@@ -10,7 +10,8 @@ import { MdEmail } from "react-icons/md";
 function Footer() {
   return (
     <section>
-      ssundar6@ucsc.edu
+      ssundar6@ucsc.edu 
+      Built with TypeScript and Next.js
       <motion.div 
         className="flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium"
         initial={{ opacity: 0, y: 100 }}
