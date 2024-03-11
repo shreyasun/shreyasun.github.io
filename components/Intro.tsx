@@ -1,7 +1,7 @@
 "use client"
 
-import React from 'react'
-import Image from 'next/image'
+import React from "react"
+import Image from "next/image"
 import { motion } from "framer-motion"
 import Link from 'next/link';
 import { RiFilePaper2Line } from "react-icons/ri";
@@ -9,7 +9,7 @@ import { BsLinkedin } from "react-icons/bs";
 import { FaGithubSquare } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import shreyaa from "@/lib/shreyaa.jpg";
-import { useSectionInView } from '@/lib/hooks';
+import { useSectionInView } from "@/lib/hooks";
 
 
 export default function Intro() {
@@ -45,7 +45,7 @@ export default function Intro() {
         initial={{opacity: 0, y: 100}}
         animate={{opacity: 1, y: 0}}
       >
-        <span className="font-bold">Hello, I'm Shreya Sundar.</span> I'm a{" "}
+        <span className="font-bold">Hello, I&apos;m Shreya Sundar.</span> I&apos;m a{" "}
         <span className="font-bold">Software Engineer</span> who enjoys{" "}
         <span className="font-bold">developing and designing</span> innovative digital solutions.{" "}
         My areas of interest include 
@@ -62,7 +62,7 @@ export default function Intro() {
       >
         <a href="https://github.com/shreyasun/shreya_sundar_resume/blob/main/ShreyaSundarResume.pdf" target="_blank"
           className="group bg-white text-black px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover-bg-gray-950 active:scale-105 transition">
-          Resume <RiFilePaper2Line className='opacity-70 group-hover:translate-x-1 transition'/>
+          Resume <RiFilePaper2Line className="opacity-70 group-hover:translate-x-1 transition"/>
         </a>
 
         <a className="group bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover-bg-gray-950 active:scale-105 transition cursor-pointer"
