@@ -70,7 +70,8 @@ export default function Intro() {
           <BsLinkedin />
         </a>
 
-        <a className="group bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover-bg-gray-950 active:scale-105 transition cursor-pointer">
+        <a className="group bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover-bg-gray-950 active:scale-105 transition cursor-pointer"
+          href="mailto:ssundar6@ucsc.edu">
           <MdEmail />
         </a>
 

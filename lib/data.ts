@@ -31,24 +31,15 @@ export const links = [
 ] as const;
 
 export const experiences = [
-  {
-    title: "Student",
-    company: "University of California, Santa Cruz",
-    location: "Santa Cruz, CA",
+  /*{
+    title: "Software Engineer Intern",
+    company: "Realtor.com",
+    location: "Austin, TX",
     description:
-      "Undergraduate at UCSC, majoring in Computer Science. Coursework: Python and C Programming, Data Structures, Algorithms, Machine Learning, Database Systems, Computer Systems Design, Web Applications, Artificial Intelligence, Software Engineering",
-    icon: React.createElement(LuGraduationCap),
-    date: "Sep 2021 - Aug 2024",
-  },
-  {
-    title: "Web Developer",
-    company: "Tech4Good Research Laboratory",
-    location: "Santa Cruz, CA",
-    description:
-      "Contributed to development and design of several full stack applications",
-    icon: React.createElement(MdComputer),
-    date: "Mar 2022 - Sep 2023",
-  },
+      "Allocation and Yield Team",
+    icon: React.createElement(HiOutlineBuildingOffice),
+    date: "June 2024 - present",
+  },*/
   {
     title: "Software Developer Intern",
     company: "UC Santa Cruz Genomics Institute",
@@ -65,17 +56,26 @@ export const experiences = [
     description:
       "Led UCSC's premier UI/UX Design Organization",
     icon: React.createElement(FaLightbulb),
-    date: "Sep 2022 - present",
+    date: "Sep 2022 - Mar 2024",
   },
-  /*{
-    title: "Software Engineer Intern",
-    company: "Realtor.com",
-    location: "Austin, TX",
+  {
+    title: "Web Developer",
+    company: "Tech4Good Research Laboratory",
+    location: "Santa Cruz, CA",
     description:
-      "Allocation and Yield Team",
-    icon: React.createElement(HiOutlineBuildingOffice),
-    date: "June 2024 - present",
-  },*/
+      "Contributed to development and design of several full stack applications",
+    icon: React.createElement(MdComputer),
+    date: "Mar 2022 - Sep 2023",
+  },
+  {
+    title: "Student",
+    company: "University of California, Santa Cruz",
+    location: "Santa Cruz, CA",
+    description:
+      "Undergraduate at UCSC, majoring in Computer Science. Coursework: Python and C Programming, Data Structures, Algorithms, Machine Learning, Database Systems, Computer Systems Design, Web Applications, Artificial Intelligence, Software Engineering",
+    icon: React.createElement(LuGraduationCap),
+    date: "Sep 2021 - Jun 2025",
+  }
 ] as const;
 
 export const projects = [
