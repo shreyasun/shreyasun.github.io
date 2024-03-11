@@ -5,18 +5,33 @@ import "react-vertical-timeline-component/style.min.css";
 import { experiences } from "@/lib/data";
 import { useSectionInView } from "@/lib/hooks";
 import { useInView } from 'react-intersection-observer';
+import { motion } from "framer-motion"
 
 function Experience() {
   const { ref } = useSectionInView("Experience", 0.5);
 
   return (
-    <section id="experience" ref={ref} className="max-w-[50rem] gap-5 text-center scroll-mt-28 mb-28 sm:mb-40">
+    <motion.section id="experience" 
+      initial={{ opacity: 0, scale: 0 }}
+      animate={{ opacity: 1, scale: 1 }}
+      ref={ref} 
+      className="max-w-[50rem] gap-5 text-center scroll-mt-28 mb-28 sm:mb-40"
+    >
       <h1 className="text-xl font-bold">Experience</h1>
       <VerticalTimeline lineColor="#CFE2F3">
         {experiences.map((experience, i) => {
           const { ref } = useInView({ threshold: 0.5 });
           return (
-            <div key={i} ref={ref} className="vertical-timeline-element">
+            <motion.div 
+              key={i} ref={ref} 
+              className="vertical-timeline-element"
+              initial={{ opacity: 0, scale: 0 }}
+              animate={{ opacity: 1, scale: 1 }}
+              transition={{
+                type: "tween",
+                duration: 0.2,
+              }}  
+            >
               <VerticalTimelineElement
                 key={i}
                 visible={true}
@@ -43,11 +58,11 @@ function Experience() {
                   {experience.description}
                 </p>
               </VerticalTimelineElement>
-            </div>
+            </motion.div>
           );
         })}
       </VerticalTimeline>
-    </section>
+    </motion.section>
   );
 }
 

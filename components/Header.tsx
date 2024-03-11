@@ -22,12 +22,13 @@ export default function Header() {
               initial={{ y: -100, opacity: 0 }}
               animate={{ y: 0,  opacity: 1 }}>
               <Link 
+                scroll={true}
                 className={clsx("flex w-full items-center justify-center px-3 py-3 hover:text-gray-950 transition", {
-                "text-gray-950": activeSection === link.name
-              })} 
-              href={link.hash}
-              onClick={() => {setActiveSection(link.name)}}
-              >
+                  "text-gray-950": activeSection === link.name
+                })} 
+                href={link.hash}
+                onClick={() => {setActiveSection(link.name)}}
+                >
                 {link.name}
                 {link.name === activeSection && (
                   <motion.span className='bg-[#e8f0f7] rounded-full absolute inset-0 -z-10' 
