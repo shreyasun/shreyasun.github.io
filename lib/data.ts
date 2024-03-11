@@ -2,6 +2,10 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
+import { FaDna } from "react-icons/fa";
+import { MdComputer } from "react-icons/md";
+import { FaLightbulb } from "react-icons/fa";
+import { HiOutlineBuildingOffice } from "react-icons/hi2";
 
 export const links = [
   {
@@ -13,20 +17,16 @@ export const links = [
     hash: "#about",
   },
   {
+    name: "Experience",
+    hash: "#experience",
+  },
+  {
     name: "Projects",
     hash: "#projects",
   },
   {
     name: "Skills",
     hash: "#skills",
-  },
-  {
-    name: "Experience",
-    hash: "#experience",
-  },
-  {
-    name: "Resume",
-    hash: "github.com",
   },
 ] as const;
 
@@ -36,27 +36,45 @@ export const experiences = [
     company: "University of California, Santa Cruz",
     location: "Santa Cruz, CA",
     description:
-      "Undergraduate at UCSC, majoring in Computer Science.",
+      "Undergraduate at UCSC, majoring in Computer Science. Coursework: Python and C Programming, Data Structures, Algorithms, Machine Learning, Database Systems, Computer Systems Design, Web Applications, Artificial Intelligence, Software Engineering",
     icon: React.createElement(LuGraduationCap),
-    date: "2021-2024",
+    date: "Sep 2021 - Aug 2024",
   },
   {
     title: "Web Developer",
     company: "Tech4Good Research Laboratory",
     location: "Santa Cruz, CA",
     description:
-      "",
-    icon: React.createElement(CgWorkAlt),
+      "Contributed to development and design of several full stack applications",
+    icon: React.createElement(MdComputer),
     date: "Mar 2022 - Sep 2023",
   },
   {
-    title: "Software Engineer Intern",
+    title: "Software Developer Intern",
     company: "UC Santa Cruz Genomics Institute",
     location: "Santa Cruz, CA",
     description:
-      "",
-    icon: React.createElement(FaReact),
+      "Contributed to the development of a genomic data visualization application",
+    icon: React.createElement(FaDna),
     date: "Nov 2022 - present",
+  },
+  {
+    title: "Co-President",
+    company: "Creative Tech Design @ UCSC",
+    location: "Santa Cruz, CA",
+    description:
+      "Led UCSC's premier UI/UX Design Organization",
+    icon: React.createElement(FaLightbulb),
+    date: "Sep 2022 - present",
+  },
+  {
+    title: "Software Engineer Intern",
+    company: "Realtor.com",
+    location: "Austin, TX",
+    description:
+      "Allocation and Yield Team",
+    icon: React.createElement(HiOutlineBuildingOffice),
+    date: "June 2024 - present",
   },
 ] as const;
 
@@ -78,6 +96,14 @@ export const projects = [
     link: "https://github.com/shreyasun/ss-cryptography"
   },
   {
+    title: "Conway's Game of Life",
+    category: "C",
+    description:
+      "In a 2D universe, cells interact with neighbors over a period of time. A live cell with 2 or 3 live neighbors survives, while a dead cell with exactly 3 live neighbors becomes alive. All other cells die, due to loneliness or overcrowding.",
+    tools: ["C", "Linux"],
+    link: "https://github.com/shreyasun/game-of-life"
+  },
+  {
     title: "Jeopardy Maker",
     category: "Full Stack",
     description:
@@ -91,7 +117,7 @@ export const projects = [
     description:
       "Minimally designed secondhand clothing website that simplifies the shopping experience, allowing user to easily find what they're looking for, get the information they require without being overwhelmed, and check out without too many steps.",
     tools: ["Figma", "Google Workspace", "Notion"],
-    link: ""
+    link: "https://shreyasundar.notion.site/Bloom-Case-Study-50ea5165023f4257b00af778a80e6752"
   },
   {
     title: "Mon Ami",
@@ -99,7 +125,7 @@ export const projects = [
     description:
       "All-in-one mental wellness platform that provides users access to mental health content and the opportunity to build connections and interact with individuals and groups in a supportive community.",
     tools: ["Figma", "Google Workspace", "Notion"],
-    link: ""
+    link: "https://shreyasundar.notion.site/Mon-Ami-UX-Case-Study-33034bf8046048c796156365a7518fe5"
   },
 ] as const;
 

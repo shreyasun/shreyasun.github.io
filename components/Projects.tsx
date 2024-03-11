@@ -1,23 +1,28 @@
-"use client"
-import React, {useState} from 'react'
-import {motion} from "framer-motion"
-import Link from 'next/link';
-import {projects, categories} from "@/lib/data"
+"use client";
+
+import React, { useState } from 'react';
+import { motion } from "framer-motion";
 import { MdOutlineOpenInNew } from "react-icons/md";
+import { projects, categories } from "@/lib/data";
+import { useSectionInView } from '@/lib/hooks';
 
 function Projects() {
-  const [currCategory, setCurrCategory] = useState("Full Stack")
+  const { ref } = useSectionInView("Projects");
+
+  const [currCategory, setCurrCategory] = useState("Full Stack");
+
   const changeCategory = (category: React.SetStateAction<string>) => {
     setCurrCategory(category);
-  }
-  const filteredProjects = projects.filter(project => project.category === currCategory)
+  };
+
+  const filteredProjects = projects.filter(project => project.category === currCategory);
 
   return (
-    <section className='flex flex-col items-center justify-center gap-5'>
-      <h1>My Projects</h1>
+    <motion.section className='flex flex-col items-center justify-center gap-5' id="projects" ref={ref}>
+      <h1 className="text-xl font-bold">My Projects</h1>
       <div className='flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium'>
         {categories.map((category) => (
-          <div className="cursor-pointer inline-block bg-[#e0f0e3] dark:bg-gray-800 rounded-md px-3 py-1 text-sm text-gray-800 dark:text-gray-200 border border-transparent hover:bg-[#CFE2F3] dark:hover:bg-gray-700 mb-2 mx-auto sm:mx-0 shadow-md p-6" 
+          <div className={`cursor-pointer inline-block rounded-md px-3 py-1 text-sm border border-transparent hover:bg-[#CFE2F3] dark:hover:bg-gray-700 mb-2 mx-auto sm:mx-0 shadow-md p-6 ${currCategory === category ? 'bg-[#CFE2F3] dark:bg-gray-800 text-gray-800 dark:text-gray-200' : 'bg-[#e0f0e3] dark:bg-gray-800 text-gray-800 dark:text-gray-200'}`}
           key={category} onClick={() => changeCategory(category)}>
             {category}
           </div>
@@ -56,8 +61,8 @@ function Projects() {
           )}
         </ul>
       </div>
-    </section>
-  )
+    </motion.section>
+  );
 }
 
-export default Projects
+export default Projects;

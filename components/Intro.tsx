@@ -8,11 +8,19 @@ import { RiFilePaper2Line } from "react-icons/ri";
 import { BsLinkedin } from "react-icons/bs";
 import { FaGithubSquare } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
-import shreyaa from "@/lib/shreyaa.jpg"
+import shreyaa from "@/lib/shreyaa.jpg";
+import { useSectionInView } from '@/lib/hooks';
+
 
 export default function Intro() {
+  const { ref } = useSectionInView("Home", 0.5);
+  
   return (
-    <section className="mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem]">
+    <section 
+      className="mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem]"
+      ref={ref}
+      id="home"
+    >
       <div className='flex items-center justify-center'>
         <motion.div
           initial={{ opacity: 0, scale: 0 }}
