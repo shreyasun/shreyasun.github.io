@@ -18,7 +18,12 @@ function Projects() {
   const filteredProjects = projects.filter(project => project.category === currCategory);
 
   return (
-    <motion.section className='flex flex-col items-center justify-center gap-5' id="projects" ref={ref}>
+    <motion.section className='flex flex-col items-center justify-center gap-5' 
+      id="projects" 
+      ref={ref}
+      initial={{ opacity: 0, scale: 0 }}
+      animate={{ opacity: 1, scale: 1 }}
+      >
       <h1 className="text-xl font-bold">My Projects</h1>
       <div className='flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium'>
         {categories.map((category) => (

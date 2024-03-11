@@ -60,10 +60,10 @@ export default function Intro() {
           delay: 0.1
         }}
       >
-        <Link href="#contact" 
+        <a href="https://github.com/shreyasun/shreya_sundar_resume/blob/main/ShreyaSundarResume.pdf" target="_blank"
           className="group bg-white text-black px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover-bg-gray-950 active:scale-105 transition">
           Resume <RiFilePaper2Line className='opacity-70 group-hover:translate-x-1 transition'/>
-        </Link>
+        </a>
 
         <a className="group bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover-bg-gray-950 active:scale-105 transition cursor-pointer"
           href="https://www.linkedin.com/in/shreyasundar" target="_blank">

@@ -22,13 +22,15 @@ function Skills() {
   const { ref } = useSectionInView("Skills");
 
   return (
-    <section 
+    <motion.section 
+      initial={{ opacity: 0, scale: 0 }}
+      animate={{ opacity: 1, scale: 1 }}
       ref={ref}
       id="skills" 
-      className="mb-4 max-w-[53rem] scroll-mt-28 text-center sm:mb-4"
+      className="mb-2 max-w-[53rem] scroll-mt-28 text-center sm:mb-2"
     >
       <h1 className="text-xl font-bold">My Skills</h1>
-      <div className='mb-10 max-w-[60rem] mx-auto text-center leading-8 sm:mb-10 scroll-mt-28 mt-5'>
+      <div className='mb-4 max-w-[60rem] mx-auto text-center leading-8 sm:mb-4 scroll-mt-28 mt-5'>
         <ul className="flex flex-wrap justify-center gap-2 text-lg text-gray-800">
           {skills.map((skill, i) => (
             <motion.li 
@@ -47,7 +49,7 @@ function Skills() {
           ))}
         </ul>
       </div>
-    </section>
+    </motion.section>
   )
 }
 

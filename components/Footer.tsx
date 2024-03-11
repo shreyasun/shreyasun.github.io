@@ -18,25 +18,10 @@ function Footer() {
           delay: 0.1
         }}
       >
-        <div className="flex gap-4 mb-4">
-          <a className="group bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover-bg-gray-950 active:scale-105 transition cursor-pointer" 
-            href="https://www.linkedin.com/in/" target="_blank">
-            <BsLinkedin />
-          </a>
-
-          <a className="group bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover-bg-gray-950 active:scale-105 transition cursor-pointer">
-            <MdEmail />
-          </a>
-
-          <a className="group bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full outline-none focus:scale-110 hover:scale-110 hover-bg-gray-950 active:scale-105 transition cursor-pointer" 
-            href="https://www.github.com/shreyasun" target="_blank">
-            <FaGithubSquare />
-          </a>
-        </div>
-
+        
         <div className='mb-1 max-w-[45rem] text-center leading-8 sm:mb-8 scroll-mt-17'>
           Made with <FaHeart className="inline align-middle" /> by Shreya Sundar <FaCopyright className="inline align-middle"/> 2024 <br/>
-          Built with TypeScript and Next.js
+          Built with TypeScript and Next.js (<a href="https://youtu.be/sUKptmUVIBM" className="underline" target="_blank">Tutorial</a>) | <a className="underline" href="https://github.com/shreyasun/shreya-sundar-portfolio" target="_blank">Code</a>
         </div>
       
       </motion.div>

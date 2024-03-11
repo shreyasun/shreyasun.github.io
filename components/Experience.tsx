@@ -15,7 +15,7 @@ function Experience() {
       initial={{ opacity: 0, scale: 0 }}
       animate={{ opacity: 1, scale: 1 }}
       ref={ref} 
-      className="max-w-[50rem] gap-5 text-center scroll-mt-28 mb-28 sm:mb-40"
+      className="max-w-[50rem] gap-5 text-center scroll-mt-28 mb-4 sm:mb-4"
     >
       <h1 className="text-xl font-bold">Experience</h1>
       <VerticalTimeline lineColor="#CFE2F3">

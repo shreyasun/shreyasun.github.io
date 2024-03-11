@@ -67,7 +67,7 @@ export const experiences = [
     icon: React.createElement(FaLightbulb),
     date: "Sep 2022 - present",
   },
-  {
+  /*{
     title: "Software Engineer Intern",
     company: "Realtor.com",
     location: "Austin, TX",
@@ -75,7 +75,7 @@ export const experiences = [
       "Allocation and Yield Team",
     icon: React.createElement(HiOutlineBuildingOffice),
     date: "June 2024 - present",
-  },
+  },*/
 ] as const;
 
 export const projects = [
