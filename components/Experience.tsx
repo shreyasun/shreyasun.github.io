@@ -1,17 +1,17 @@
-"use client"
+"use client";
 import React from "react";
 import { VerticalTimeline, VerticalTimelineElement } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import { experiences } from "@/lib/data";
 import { useSectionInView } from "@/lib/hooks";
-import { useInView } from 'react-intersection-observer';
-import { motion } from "framer-motion"
+import { motion } from "framer-motion";
 
 function Experience() {
   const { ref } = useSectionInView("Experience", 0.5);
 
   return (
-    <motion.section id="experience" 
+    <motion.section 
+      id="experience" 
       initial={{ opacity: 0, scale: 0 }}
       animate={{ opacity: 1, scale: 1 }}
       ref={ref} 
@@ -19,11 +19,11 @@ function Experience() {
     >
       <h1 className="text-xl font-bold">Experience</h1>
       <VerticalTimeline lineColor="#CFE2F3">
-        {experiences.map((experience, i) => {
-          const { ref } = useInView({ threshold: 0.5 });
-          return (
+        {experiences.map((experience, i) => (
+          <React.Fragment key={i}>
             <motion.div 
-              key={i} ref={ref} 
+              key={i} 
+              ref={ref} 
               className="vertical-timeline-element"
               initial={{ opacity: 0, scale: 0 }}
               animate={{ opacity: 1, scale: 1 }}
@@ -59,8 +59,8 @@ function Experience() {
                 </p>
               </VerticalTimelineElement>
             </motion.div>
-          );
-        })}
+          </React.Fragment>
+        ))}
       </VerticalTimeline>
     </motion.section>
   );

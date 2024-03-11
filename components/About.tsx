@@ -1,7 +1,7 @@
 "use client"
-import React from 'react'
+import React from "react";
 import { motion } from "framer-motion";
-import { useSectionInView } from '@/lib/hooks';
+import { useSectionInView } from "@/lib/hooks";
 
 function About() {
   const { ref } = useSectionInView("About");
@@ -23,9 +23,9 @@ function About() {
       </p>
 
       <p className="mb-3">
-        I am currently pursuing a <span className="font-medium">Bachelor's of Science in Computer Science</span> at UC Santa Cruz, where
-        I've had the privilege of diving into fascinating coursework, projects, and experiences that 
-        have honed my skills and increased my eagerness for continuous learning and growth. I'm proficient 
+        I am currently pursuing a <span className="font-medium">Bachelor&apos;s of Science in Computer Science</span> at UC Santa Cruz, where
+        I&apos;ve had the privilege of diving into fascinating coursework, projects, and experiences that 
+        have honed my skills and increased my eagerness for continuous learning and growth. I&apos;m proficient 
         in several programming languages, including <span className="font-medium">Python, JavaScript, and C</span>, and am comfortable working 
         with databases and software development tools. I thrive in <span className="font-medium">collaborative environments</span> and enjoy 
         working to solve complex problems.
@@ -37,7 +37,7 @@ function About() {
       </p>
 
       <p className="mb-3">
-        When I'm not coding, I enjoy
+        When I&apos;m not coding, I enjoy
         reading, taking long walks, and listening to podcasts. I also enjoy{" "}
         <span className="font-medium">learning trivia and random facts</span>, especially
         about{" "} <span className="font-medium">geography, history, and astronomy</span>.
