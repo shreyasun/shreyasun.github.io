@@ -138,7 +138,6 @@ export const skills = [
   "Next.js",
   "Node.js",
   "Git",
-  "Tailwind",
   "MongoDB",
   "Express",
   "MySQL",
@@ -148,8 +147,6 @@ export const skills = [
   "C++",
   "Java",
   "SQL",
-  "Docker",
-  "Amazon Web Services",
   "Figma"
 ] as const;
 
