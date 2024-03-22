@@ -5,9 +5,13 @@ import "react-vertical-timeline-component/style.min.css";
 import { experiences } from "@/lib/data";
 import { useSectionInView } from "@/lib/hooks";
 import { motion } from "framer-motion";
+import { useTheme } from "@/context/theme-context";
 
 function Experience() {
   const { ref } = useSectionInView("Experience", 0.5);
+  const { theme } = useTheme();
+  const bgColor = theme === 'dark' ? '#204275' : '#e0f0e3';
+  const iconColor = theme === 'dark' ? '#000000' : '#ffffff';
 
   return (
     <motion.section 
@@ -36,7 +40,7 @@ function Experience() {
                 key={i}
                 visible={true}
                 contentStyle={{
-                  background: "#e0f0e3",
+                  background: `${bgColor}`,
                   boxShadow: "none",
                   border: "1px solid rgba(0, 0, 0, 0.05)",
                   textAlign: "left",
@@ -48,7 +52,7 @@ function Experience() {
                 date={experience.date}
                 icon={experience.icon}
                 iconStyle={{
-                  background: "white",
+                  background: `${iconColor}`,
                   fontSize: "0.7rem",
                 }}
               >
