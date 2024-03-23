@@ -1,21 +1,24 @@
 "use client";
-// header.tsx
-// header.tsx
+
 import React, { useState } from 'react';
 import { motion } from "framer-motion";
 import { links } from "@/lib/data";
 import Link from 'next/link';
 import clsx from "clsx";
 
-export default function Header({ setActiveComponent }) {
+interface HeaderProps {
+  setActiveComponent: (component: string) => void; // Explicitly specify the type of setActiveComponent
+}
+
+export default function Header({ setActiveComponent }: HeaderProps) {
   const [activeSection, setActiveSection] = useState('Intro');
 
-  const handleButtonClick = (sectionName) => {
+  const handleButtonClick = (sectionName: string) => {
     setActiveSection(sectionName);
     setActiveComponent(sectionName);
   };
 
-  const isDarkMode = true;
+  const isDarkMode = false;
 
   return (
     <header className='z-[999] relative'>
