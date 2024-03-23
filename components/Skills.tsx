@@ -26,7 +26,7 @@ function Skills() {
       initial={{ opacity: 0, scale: 0 }}
       animate={{ opacity: 1, scale: 1 }}
       ref={ref}
-      id="skills" 
+      //id="skills" 
       className="mb-2 max-w-[53rem] scroll-mt-28 text-center sm:mb-2"
     >
       <h1 className="text-xl font-bold">My Skills</h1>

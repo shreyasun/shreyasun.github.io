@@ -35,15 +35,14 @@ export default function Header({ setActiveComponent }: HeaderProps) {
             <motion.li className="h-3/4 flex items-center justify-center relative" key={link.hash}
               initial={{ y: -100, opacity: 0 }}
               animate={{ y: 0,  opacity: 1 }}>
-              <Link 
-                scroll={true}
+              <button
                 className={clsx("flex w-full items-center justify-center px-3 py-3 hover:text-gray-950 dark:hover:text-white transition", {
                   "text-gray-950 dark:text-white": activeSection === link.name
-                })} 
-                href={link.hash}
-                onClick={() => handleButtonClick(link.name)}>
+                })}
+                onClick={() => handleButtonClick(link.name)}
+              >
                 {link.name}
-              </Link>  
+              </button>  
             </motion.li>
           ))}
         </ul>

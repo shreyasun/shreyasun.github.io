@@ -19,7 +19,7 @@ function Projects() {
 
   return (
     <motion.section className='flex flex-col items-center justify-center gap-5' 
-      id="projects" 
+      //id="projects" 
       ref={ref}
       initial={{ opacity: 0, scale: 0 }}
       animate={{ opacity: 1, scale: 1 }}

@@ -1,9 +1,6 @@
 "use client"
 import React from 'react'
 import { motion } from "framer-motion"
-import { BsLinkedin } from "react-icons/bs";
-import { FaGithubSquare } from "react-icons/fa";
-import { MdEmail } from "react-icons/md";
 import { FaHeart } from "react-icons/fa";
 import { FaCopyright } from "react-icons/fa";
 

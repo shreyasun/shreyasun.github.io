@@ -1,5 +1,3 @@
-import Intro from '@/components/Intro'
-import Footer from '@/components/Footer'
 import './globals.css'
 import { Inter } from 'next/font/google'
 import ActiveSectionContext from '@/context/active-section-context'
@@ -26,7 +24,6 @@ export default function RootLayout({
         <ThemeContextProvider>
           <ActiveSectionContext>
             {children}
-            <Footer />
             <ThemeSwitch />
           </ActiveSectionContext>
         </ThemeContextProvider>
