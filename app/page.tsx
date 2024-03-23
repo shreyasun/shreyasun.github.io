@@ -1,4 +1,6 @@
-import Image from 'next/image'
+"use client"
+import Header from '@/components/Header'
+import {useState} from "react"
 import Intro from '@/components/Intro'
 import Experience from '@/components/Experience'
 import SectionDivider from '@/components/SectionDivider'
@@ -7,18 +9,29 @@ import Projects from '@/components/Projects'
 import Skills from '@/components/Skills'
 
 export default function Home() {
+  const [activeComponent, setActiveComponent] = useState('Intro');
+  
+  const renderComponent = () => {
+    switch (activeComponent) {
+      case 'Intro':
+        return <Intro />;
+      case 'Experience':
+        return <Experience />;
+      case 'About':
+        return <About />;
+      case 'Projects':
+        return <Projects />;
+      case 'Skills':
+        return <Skills />;
+      default:
+        return <Intro />;
+    }
+  };
+
   return (
     <main className="flex flex-col items-center px-4">
-        <Intro />
-        <SectionDivider />
-        <About />
-        <SectionDivider />
-        <Experience />
-        <SectionDivider />
-        <Projects />
-        <SectionDivider />
-        <Skills />
-        <SectionDivider />
+      <Header setActiveComponent={setActiveComponent}/>
+      {renderComponent()}
     </main>
   )
 }

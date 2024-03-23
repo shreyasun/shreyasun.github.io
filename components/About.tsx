@@ -18,8 +18,7 @@ function About() {
       <h1 className="text-xl font-bold">About me</h1>
       <p className="mb-3">
         Hello! My name is Shreya. I am a <span className="font-medium">tech enthusiast</span>, captivated by the endless opportunities of
-        technology to shape our world and improve lives. With a great <span className="font-medium">passion for programming</span> and building software, 
-        I am constantly exploring the ever-evolving tech landscape.
+        technology to shape our world and improve lives. 
       </p>
 
       <p className="mb-3">

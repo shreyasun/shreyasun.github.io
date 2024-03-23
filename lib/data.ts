@@ -9,8 +9,8 @@ import { HiOutlineBuildingOffice } from "react-icons/hi2";
 
 export const links = [
   {
-    name: "Home",
-    hash: "#home",
+    name: "Intro",
+    hash: "#intro",
   },
   {
     name: "About",
