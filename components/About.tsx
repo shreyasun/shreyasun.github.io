@@ -13,7 +13,6 @@ function About() {
       initial={{ opacity: 0, y: 1 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: 0.175 }}
-      id="about"
     >
       <h1 className="text-xl font-bold">About me</h1>
       <p className="mb-3">
