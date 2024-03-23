@@ -7,7 +7,7 @@ import Link from 'next/link';
 import clsx from "clsx";
 
 interface HeaderProps {
-  setActiveComponent: (component: string) => void; // Explicitly specify the type of setActiveComponent
+  setActiveComponent: (component: string) => void;
 }
 
 export default function Header({ setActiveComponent }: HeaderProps) {
@@ -18,7 +18,7 @@ export default function Header({ setActiveComponent }: HeaderProps) {
     setActiveComponent(sectionName);
   };
 
-  const isDarkMode = false;
+  const isDarkMode = true;
 
   return (
     <header className='z-[999] relative'>

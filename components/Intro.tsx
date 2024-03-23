@@ -13,13 +13,13 @@ import { useSectionInView } from "@/lib/hooks";
 
 
 export default function Intro() {
-  const { ref } = useSectionInView("Home", 0.5);
+  const { ref } = useSectionInView("Intro", 0.5);
   
   return (
     <section 
       className="mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem]"
       ref={ref}
-      id="home"
+      id="intro"
     >
       <div className='flex items-center justify-center'>
         <motion.div
@@ -32,7 +32,7 @@ export default function Intro() {
         >
           <Image
             src={shreyaa}
-            alt="Ricardo portrait"
+            alt="portrait"
             width="192"
             height="192"
             quality="95"
