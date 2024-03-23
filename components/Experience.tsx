@@ -10,7 +10,7 @@ import { useTheme } from "@/context/theme-context";
 function Experience() {
   const { ref } = useSectionInView("Experience", 0.5);
   const { theme } = useTheme();
-  const bgColor = theme === 'dark' ? '#204275' : '#e0f0e3';
+  const bgColor = theme === 'dark' ? '#102a43' : '#e0f0e3';
   const iconColor = theme === 'dark' ? '#000000' : '#ffffff';
 
   return (
