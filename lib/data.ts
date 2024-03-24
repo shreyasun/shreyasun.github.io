@@ -87,6 +87,14 @@ export const experiences = [
 
 export const projects = [
   {
+    title: "Life Expectancy Data Exploration",
+    category: "Data",
+    description:
+      "Data exploration of life expectancy, from Kaggle dataset",
+    tools: ["SQL", "MySQL", "Tableau"],
+    link: "https://github.com/shreyasun/leb_analysis"
+  },
+  {
     title: "Schmidt-Samoa Cryptography",
     category: "C",
     description:
