@@ -142,6 +142,14 @@ export const projects = [
     tools: ["Figma", "Google Workspace", "Notion"],
     link: "https://shreyasundar.notion.site/Mon-Ami-UX-Case-Study-33034bf8046048c796156365a7518fe5"
   },
+  {
+    title: "My Portfolio",
+    category: "Full Stack",
+    description:
+      "My personal portfolio website (you're looking at it now!)",
+    tools: ["Next.js", "React.js", "TypeScript"],
+    link: "https://github.com/shreyasun/shreya-sundar-portfolio"
+  },
 ] as const;
 
 export const skills = [
