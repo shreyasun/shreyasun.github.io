@@ -3,7 +3,6 @@ import Header from '@/components/Header'
 import {useState} from "react"
 import Intro from '@/components/Intro'
 import Experience from '@/components/Experience'
-import SectionDivider from '@/components/SectionDivider'
 import About from '@/components/About'
 import Projects from '@/components/Projects'
 import Skills from '@/components/Skills'
