@@ -137,24 +137,90 @@ export const projects = [
 ] as const;
 
 export const skills = [
-  "HTML",
-  "CSS",
-  "JavaScript",
-  "TypeScript",
-  "React",
-  "Next.js",
-  "Node.js",
-  "Git",
-  "MongoDB",
-  "Express",
-  "MySQL",
-  "Python",
-  "PyTorch",
-  "C",
-  "C++",
-  "Java",
-  "SQL",
-  "Figma"
+  {
+    skill: "HTML",
+    category: "Programming Languages",
+  },
+  {
+    skill: "CSS",
+    category: "Programming Languages",
+  },
+  {
+    skill: "JavaScript",
+    category: "Programming Languages",
+  },
+  {
+    skill: "Python",
+    category: "Programming Languages",
+  },
+  {
+    skill: "C",
+    category: "Programming Languages",
+  },
+  {
+    skill: "C++",
+    category: "Programming Languages",
+  },
+  {
+    skill: "Java",
+    category: "Programming Languages",
+  },
+  {
+    skill: "SQL",
+    category: "Programming Languages",
+  },
+  {
+    skill: "React.js",
+    category: "Frameworks and Libraries",
+  },
+  {
+    skill: "Next.js",
+    category: "Frameworks and Libraries",
+  },
+  {
+    skill: "Node.js",
+    category: "Frameworks and Libraries",
+  },
+  {
+    skill: "Pandas",
+    category: "Frameworks and Libraries",
+  },
+  {
+    skill: "NumPy",
+    category: "Frameworks and Libraries",
+  },
+  {
+    skill: "Scikit-Learn",
+    category: "Frameworks and Libraries",
+  },
+  {
+    skill: "Git",
+    category: "Developer Tools",
+  },
+  {
+    skill: "MongoDB",
+    category: "Developer Tools",
+  },
+  {
+    skill: "MySQL",
+    category: "Developer Tools",
+  },
+  {
+    skill: "Google Workspace",
+    category: "Developer Tools",
+  },
+  {
+    skill: "Microsoft Office",
+    category: "Developer Tools",
+  },
+  {
+    skill: "Jupyter",
+    category: "Developer Tools",
+  },
+  {
+    skill: "Figma",
+    category: "Developer Tools",
+  },
 ] as const;
 
 
