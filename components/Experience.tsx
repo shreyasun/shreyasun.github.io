@@ -10,8 +10,8 @@ import { useTheme } from "@/context/theme-context";
 function Experience() {
   const { ref } = useSectionInView("Experience", 0.5);
   const { theme } = useTheme();
-  const bgColor = theme === 'dark' ? '#102a43' : '#e0f0e3';
-  const iconColor = theme === 'dark' ? '#000000' : '#ffffff';
+  const bgColor = theme === 'dark' ? '#102a43' : '#f0f4f8';
+  const iconColor = theme === 'dark' ? '#000000' : '#f0f4f8';
 
   return (
     <motion.section 
@@ -21,7 +21,7 @@ function Experience() {
       className="max-w-[50rem] gap-5 text-center scroll-mt-28 mb-4 sm:mb-4"
     >
       <h1 className="text-xl font-bold">Experience</h1>
-      <VerticalTimeline lineColor="#CFE2F3">
+      <VerticalTimeline lineColor="#829ab1">
         {experiences.map((experience, i) => (
           <React.Fragment key={i}>
             <motion.div 
@@ -40,8 +40,8 @@ function Experience() {
                 visible={true}
                 contentStyle={{
                   background: `${bgColor}`,
-                  boxShadow: "none",
-                  border: "1px solid rgba(0, 0, 0, 0.05)",
+                  boxShadow: "0 2px 4px rgba(0, 0, 0, 0.1)",
+                  border: "1px solid rgba(0, 0, 0, 0.1)",
                   textAlign: "left",
                   padding: "0.8rem 1.5rem",
                 }}
