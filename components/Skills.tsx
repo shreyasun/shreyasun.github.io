@@ -33,7 +33,7 @@ function Skills() {
         <ul className="flex flex-wrap justify-center gap-2 text-lg text-gray-800">
           {skills.map((skill, i) => (
             <motion.li 
-              className="bg-[#f0f4f8] inline-block dark:bg-gray-800 rounded-md px-3 py-1 text-sm text-gray-800 dark:text-gray-200 border border-transparent mb-2 mx-auto sm:mx-0 shadow-md p-6 dark:bg-[#102a43]"
+              className="bg-[#f0f4f8] inline-block dark:bg-gray-800 rounded-md px-3 py-1 text-sm text-gray-800 dark:text-gray-200 border border-transparent mb-2 mx-auto sm:mx-0 shadow-md p-6 dark:bg-blue5"
               key={i}
               initial="initial"
               variants={fadeInAnimationVariants}

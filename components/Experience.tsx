@@ -20,7 +20,7 @@ function Experience() {
       ref={ref} 
       className="max-w-[50rem] gap-5 text-center scroll-mt-28 mb-4 sm:mb-4"
     >
-      <h1 className="text-xl font-bold">Experience</h1>
+      <h1 className="text-xl font-bold">My Experience</h1>
       <VerticalTimeline lineColor="#829ab1">
         {experiences.map((experience, i) => (
           <React.Fragment key={i}>

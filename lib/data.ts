@@ -1,11 +1,9 @@
 import React from "react";
-import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import { FaDna } from "react-icons/fa";
 import { MdComputer } from "react-icons/md";
 import { FaLightbulb } from "react-icons/fa";
-import { HiOutlineBuildingOffice } from "react-icons/hi2";
+import { FaPencilAlt } from "react-icons/fa";
 
 export const links = [
   {
@@ -40,6 +38,15 @@ export const experiences = [
     icon: React.createElement(HiOutlineBuildingOffice),
     date: "June 2024 - present",
   },*/
+  {
+    title: "Tutor",
+    company: "Baskin School of Engineering",
+    location: "Santa Cruz, CA",
+    description:
+      "Tutor for CSE 101, Data Structures and Algorithms",
+    icon: React.createElement(FaPencilAlt),
+    date: "Sep 2023 - Mar 2024",
+  },
   {
     title: "Software Developer Intern",
     company: "UC Santa Cruz Genomics Institute",
