@@ -90,13 +90,13 @@ export const projects = [
     title: "Life Expectancy Data Exploration",
     category: "Data",
     description:
-      "Data exploration of life expectancy, from Kaggle dataset",
+      "Data exploration of life expectancy and communicable disease mortality rates, from World Bank datasets",
     tools: ["SQL", "MySQL", "Tableau"],
-    link: "https://github.com/shreyasun/leb_analysis"
+    link: "https://github.com/shreyasun/leb-cd-analysis"
   },
   {
     title: "Schmidt-Samoa Cryptography",
-    category: "C",
+    category: "C/C++",
     description:
       "Large integers, which are difficult to factor, are used to generate a public-private key pair. The public key is used to encrypt a file, and the encrypted file can only be decrypted by using the respective private key.",
     tools: ["C", "Linux"],
@@ -104,7 +104,7 @@ export const projects = [
   },
   {
     title: "Lempel-Ziv Data Compression",
-    category: "C",
+    category: "C/C++",
     description:
       "Lossless data compression algorithm that stores recurring patterns of data in a dictionary, compressing the data input. Decompression reconstructs original data using these encoded dictionary references.",
     tools: ["C", "Linux"],
@@ -112,7 +112,7 @@ export const projects = [
   },
   {
     title: "Conway's Game of Life",
-    category: "C",
+    category: "C/C++",
     description:
       "In a 2D universe, cells interact with neighbors over a period of time. A live cell with 2 or 3 live neighbors survives, while a dead cell with exactly 3 live neighbors becomes alive. All other cells die, due to loneliness or overcrowding.",
     tools: ["C", "Linux"],
@@ -120,7 +120,7 @@ export const projects = [
   },
   {
     title: "Jeopardy Maker",
-    category: "Full Stack",
+    category: "Web",
     description:
       "Jeopardy! is one of the most popular American game shows. In this interactive Jeopardy Maker tool, users can create trivia cards to be rendered into an interactive Jeopardy Board. ",
     tools: ["React", "Node", "Express", "MongoDB", "Firebase"],
@@ -144,7 +144,7 @@ export const projects = [
   },
   {
     title: "My Portfolio",
-    category: "Full Stack",
+    category: "Web",
     description:
       "My personal portfolio website (you're looking at it now!)",
     tools: ["Next.js", "React.js", "TypeScript"],
@@ -241,10 +241,10 @@ export const skills = [
 
 
 export const categories = [
-  "Full Stack",
-  "C",
+  "Web",
+  "C/C++",
   "Data",
-  "Machine Learning",
+  "AI/ML",
   "Product",
   "Other"
 ] as const;
