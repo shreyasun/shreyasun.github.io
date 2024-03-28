@@ -9,7 +9,7 @@ import { useSectionInView } from '@/lib/hooks';
 function Projects() {
   const { ref } = useSectionInView("Projects");
 
-  const [currCategory, setCurrCategory] = useState("Full Stack");
+  const [currCategory, setCurrCategory] = useState("Web");
 
   const changeCategory = (category: React.SetStateAction<string>) => {
     setCurrCategory(category);
