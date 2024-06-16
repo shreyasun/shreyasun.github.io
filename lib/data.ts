@@ -4,6 +4,7 @@ import { FaDna } from "react-icons/fa";
 import { MdComputer } from "react-icons/md";
 import { FaLightbulb } from "react-icons/fa";
 import { FaPencilAlt } from "react-icons/fa";
+import { HiOutlineOfficeBuilding } from "react-icons/hi";
 
 export const links = [
   {
@@ -29,15 +30,15 @@ export const links = [
 ] as const;
 
 export const experiences = [
-  /*{
+  {
     title: "Software Engineer Intern",
     company: "Realtor.com",
     location: "Austin, TX",
     description:
-      "Allocation and Yield Team",
-    icon: React.createElement(HiOutlineBuildingOffice),
-    date: "June 2024 - present",
-  },*/
+      "SWE Intern under Customer Experiences Department",
+    icon: React.createElement(HiOutlineOfficeBuilding),
+    date: "Jun 2024 - present",
+  },
   {
     title: "Tutor",
     company: "Baskin School of Engineering",
@@ -45,7 +46,7 @@ export const experiences = [
     description:
       "Tutor for CSE 101, Data Structures and Algorithms",
     icon: React.createElement(FaPencilAlt),
-    date: "Sep 2023 - Mar 2024",
+    date: "Sep 2023 - Apr 2024",
   },
   {
     title: "Software Developer Intern",
@@ -54,7 +55,7 @@ export const experiences = [
     description:
       "Contributed to the development of a genomic data visualization application",
     icon: React.createElement(FaDna),
-    date: "Nov 2022 - present",
+    date: "Nov 2022 - May 2024",
   },
   {
     title: "Co-President",
@@ -81,7 +82,7 @@ export const experiences = [
     description:
       "Undergraduate at UCSC, majoring in Computer Science. Coursework: Python and C Programming, Data Structures, Algorithms, Machine Learning, Database Systems, Computer Systems Design, Web Applications, Artificial Intelligence, Software Engineering",
     icon: React.createElement(LuGraduationCap),
-    date: "Sep 2021 - Jun 2025",
+    date: "Sep 2021 - Jul 2024",
   }
 ] as const;
 
@@ -119,6 +120,15 @@ export const projects = [
     link: "https://github.com/shreyasun/game-of-life"
   },
   {
+    title: "Banana Slug Emulator",
+    category: "C/C++",
+    description:
+      "Implemented an emulator for the fictional video game console, the Banana, from ROM binary file input. Utilized high speed and low level C++ design for CPU, Memory, GPU, and Operating System.",
+    tools: ["C++", "Linux"],
+    link: "https://github.com/shreyasun/banana-emulator-cse-111",
+    tags: ["Group Project", "CSE 111 UCSC"]
+  },
+  {
     title: "Jeopardy Maker",
     category: "Web",
     description:
@@ -150,17 +160,17 @@ export const projects = [
     tools: ["Next.js", "React.js", "TypeScript"],
     link: "https://github.com/shreyasun/shreya-sundar-portfolio"
   },
+  {
+    title: "BookTessera",
+    category: "Web",
+    description:
+      "A ticketing platform to improve ticket purchasing process for event-goers",
+    tools: ["React.js", "Firestore", "Python", "Node", "Express"],
+    link: "https://github.com/BookTessera/BookTessera"
+  },
 ] as const;
 
 export const skills = [
-  {
-    skill: "HTML",
-    category: "Programming Languages",
-  },
-  {
-    skill: "CSS",
-    category: "Programming Languages",
-  },
   {
     skill: "JavaScript",
     category: "Programming Languages",
@@ -188,6 +198,14 @@ export const skills = [
   {
     skill: "React.js",
     category: "Frameworks and Libraries",
+  },
+  {
+    skill: "HTML",
+    category: "Programming Languages",
+  },
+  {
+    skill: "CSS",
+    category: "Programming Languages",
   },
   {
     skill: "Next.js",
@@ -237,6 +255,42 @@ export const skills = [
     skill: "Figma",
     category: "Developer Tools",
   },
+  {
+    skill: "CSE 30: Programming Abstractions in Python",
+    category: "My Favorite Courses at UCSC",
+  },
+  {
+    skill: "CSE 13S: Computer Systems and C Programming",
+    category: "My Favorite Courses at UCSC",
+  },
+  {
+    skill: "CSE 101: Data Structures and Algorithms (C/C++)",
+    category: "My Favorite Courses at UCSC",
+  },
+  {
+    skill: "CSE 102: Analysis of Algorithms",
+    category: "My Favorite Courses at UCSC",
+  },
+  {
+    skill: "CSE 111: Advanced Programming (C++)",
+    category: "My Favorite Courses at UCSC",
+  },
+  {
+    skill: "CSE 115a: Introduction to Software Engineering",
+    category: "My Favorite Courses at UCSC",
+  },
+  {
+    skill: "CSE 130: Principles of Computer Systems Design",
+    category: "My Favorite Courses at UCSC",
+  },
+  {
+    skill: "CSE 144: Applied Machine Learning",
+    category: "My Favorite Courses at UCSC",
+  },
+  {
+    skill: "CSE 180: Database Systems",
+    category: "My Favorite Courses at UCSC",
+  },
 ] as const;
 
 
@@ -244,7 +298,6 @@ export const categories = [
   "Web",
   "C/C++",
   "Data",
-  "AI/ML",
   "Product",
   "Other"
 ] as const;
