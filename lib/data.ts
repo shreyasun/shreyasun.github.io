@@ -93,7 +93,8 @@ export const projects = [
     description:
       "Data exploration of life expectancy and communicable disease mortality rates, from World Bank datasets",
     tools: ["SQL", "MySQL", "Tableau"],
-    link: "https://github.com/shreyasun/leb-cd-analysis"
+    link: "https://github.com/shreyasun/leb-cd-analysis",
+    tags: []
   },
   {
     title: "Schmidt-Samoa Cryptography",
@@ -101,7 +102,8 @@ export const projects = [
     description:
       "Large integers, which are difficult to factor, are used to generate a public-private key pair. The public key is used to encrypt a file, and the encrypted file can only be decrypted by using the respective private key.",
     tools: ["C", "Linux"],
-    link: "https://github.com/shreyasun/lz-compression"
+    link: "https://github.com/shreyasun/lz-compression",
+    tags: ["CSE 13S UCSC"]
   },
   {
     title: "Lempel-Ziv Data Compression",
@@ -109,7 +111,8 @@ export const projects = [
     description:
       "Lossless data compression algorithm that stores recurring patterns of data in a dictionary, compressing the data input. Decompression reconstructs original data using these encoded dictionary references.",
     tools: ["C", "Linux"],
-    link: "https://github.com/shreyasun/ss-cryptography"
+    link: "https://github.com/shreyasun/ss-cryptography",
+    tags: ["CSE 13S UCSC"]
   },
   {
     title: "Conway's Game of Life",
@@ -117,7 +120,8 @@ export const projects = [
     description:
       "In a 2D universe, cells interact with neighbors over a period of time. A live cell with 2 or 3 live neighbors survives, while a dead cell with exactly 3 live neighbors becomes alive. All other cells die, due to loneliness or overcrowding.",
     tools: ["C", "Linux"],
-    link: "https://github.com/shreyasun/game-of-life"
+    link: "https://github.com/shreyasun/game-of-life",
+    tags: ["CSE 13S UCSC"]
   },
   {
     title: "Banana Slug Emulator",
@@ -125,7 +129,7 @@ export const projects = [
     description:
       "Implemented an emulator for the fictional video game console, the Banana, from ROM binary file input. Utilized high speed and low level C++ design for CPU, Memory, GPU, and Operating System.",
     tools: ["C++", "Linux"],
-    link: "https://github.com/shreyasun/banana-emulator-cse-111",
+    link: "https://shreyasundar.notion.site/Banana-Emulator-CSE-111-Final-Project-Spring-2024-71c427531701448e9616b251e2c81845",
     tags: ["Group Project", "CSE 111 UCSC"]
   },
   {
@@ -134,7 +138,8 @@ export const projects = [
     description:
       "Jeopardy! is one of the most popular American game shows. In this interactive Jeopardy Maker tool, users can create trivia cards to be rendered into an interactive Jeopardy Board. ",
     tools: ["React", "Node", "Express", "MongoDB", "Firebase"],
-    link: "https://github.com/shreyasun/jeopardy-maker"
+    link: "https://github.com/shreyasun/jeopardy-maker",
+    tags: []
   },
   {
     title: "Bloom",
@@ -142,7 +147,8 @@ export const projects = [
     description:
       "Minimally designed secondhand clothing website that simplifies the shopping experience, allowing user to easily find what they're looking for, get the information they require without being overwhelmed, and check out without too many steps.",
     tools: ["Figma", "Google Workspace", "Notion"],
-    link: "https://shreyasundar.notion.site/Bloom-Case-Study-50ea5165023f4257b00af778a80e6752"
+    link: "https://shreyasundar.notion.site/Bloom-Case-Study-50ea5165023f4257b00af778a80e6752",
+    tags: ["Group Project", "Creative Tech Design @ UCSC"]
   },
   {
     title: "Mon Ami",
@@ -150,7 +156,8 @@ export const projects = [
     description:
       "All-in-one mental wellness platform that provides users access to mental health content and the opportunity to build connections and interact with individuals and groups in a supportive community.",
     tools: ["Figma", "Google Workspace", "Notion"],
-    link: "https://shreyasundar.notion.site/Mon-Ami-UX-Case-Study-33034bf8046048c796156365a7518fe5"
+    link: "https://shreyasundar.notion.site/Mon-Ami-UX-Case-Study-33034bf8046048c796156365a7518fe5",
+    tags: ["Group Project", "Creative Tech Design @ UCSC"]
   },
   {
     title: "My Portfolio",
@@ -158,7 +165,8 @@ export const projects = [
     description:
       "My personal portfolio website (you're looking at it now!)",
     tools: ["Next.js", "React.js", "TypeScript"],
-    link: "https://github.com/shreyasun/shreya-sundar-portfolio"
+    link: "https://github.com/shreyasun/shreya-sundar-portfolio",
+    tags: []
   },
   {
     title: "BookTessera",
@@ -166,7 +174,8 @@ export const projects = [
     description:
       "A ticketing platform to improve ticket purchasing process for event-goers",
     tools: ["React.js", "Firestore", "Python", "Node", "Express"],
-    link: "https://github.com/BookTessera/BookTessera"
+    link: "https://github.com/BookTessera/BookTessera",
+    tags: ["Group Project", "CSE 115A UCSC"]
   },
 ] as const;
 
