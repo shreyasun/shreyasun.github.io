@@ -48,7 +48,7 @@ export const experiences = [
       "Tutor for CSE 101, Data Structures and Algorithms",
     icon: React.createElement(FaPencilAlt),
     date: "Sep 2023 - Apr 2024",
-    link: null,
+    link: "",
   },
   {
     title: "Software Developer Intern",
@@ -68,7 +68,7 @@ export const experiences = [
       "Led UCSC's premier UI/UX Design Organization",
     icon: React.createElement(FaLightbulb),
     date: "Sep 2022 - Mar 2024",
-    link: null
+    link: ""
   },
   {
     title: "Web Developer",
@@ -78,7 +78,7 @@ export const experiences = [
       "Contributed to development and design of several full stack applications",
     icon: React.createElement(MdComputer),
     date: "Mar 2022 - Sep 2023",
-    link: null
+    link: ""
   },
   {
     title: "Student",
@@ -88,7 +88,7 @@ export const experiences = [
       "Recent grad from UCSC, majoring in Computer Science. Coursework: Python and C Programming, Data Structures, Algorithms, Machine Learning, Database Systems, Computer Systems Design, Web Applications, Artificial Intelligence, Software Engineering",
     icon: React.createElement(LuGraduationCap),
     date: "Sep 2021 - Jul 2024",
-    link: null
+    link: ""
   }
 ] as const;
 
