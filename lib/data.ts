@@ -38,6 +38,7 @@ export const experiences = [
       "SWE Intern under Customer Experiences Department",
     icon: React.createElement(HiOutlineOfficeBuilding),
     date: "Jun 2024 - present",
+    link: "https://shreyasundar.notion.site/My-Experience-as-an-SWE-Intern-at-Realtor-com-Summer-2024-1e8b5827586f4897b079d68a61ff344f"
   },
   {
     title: "Tutor",
@@ -56,6 +57,7 @@ export const experiences = [
       "Contributed to the development of a genomic data visualization application",
     icon: React.createElement(FaDna),
     date: "Nov 2022 - May 2024",
+    link: "https://shreyasundar.notion.site/My-Experience-as-an-SDE-Intern-at-UC-Santa-Cruz-Genomics-Institute-2022-2024-5e90e55b975940458d400eaae9a8c399?pvs=25"
   },
   {
     title: "Co-President",
@@ -80,7 +82,7 @@ export const experiences = [
     company: "University of California, Santa Cruz",
     location: "Santa Cruz, CA",
     description:
-      "Undergraduate at UCSC, majoring in Computer Science. Coursework: Python and C Programming, Data Structures, Algorithms, Machine Learning, Database Systems, Computer Systems Design, Web Applications, Artificial Intelligence, Software Engineering",
+      "Recent grad from UCSC, majoring in Computer Science. Coursework: Python and C Programming, Data Structures, Algorithms, Machine Learning, Database Systems, Computer Systems Design, Web Applications, Artificial Intelligence, Software Engineering",
     icon: React.createElement(LuGraduationCap),
     date: "Sep 2021 - Jul 2024",
   }
@@ -265,40 +267,8 @@ export const skills = [
     category: "Developer Tools",
   },
   {
-    skill: "CSE 30: Programming Abstractions in Python",
-    category: "My Favorite Courses at UCSC",
-  },
-  {
-    skill: "CSE 13S: Computer Systems and C Programming",
-    category: "My Favorite Courses at UCSC",
-  },
-  {
-    skill: "CSE 101: Data Structures and Algorithms (C/C++)",
-    category: "My Favorite Courses at UCSC",
-  },
-  {
-    skill: "CSE 102: Analysis of Algorithms",
-    category: "My Favorite Courses at UCSC",
-  },
-  {
-    skill: "CSE 111: Advanced Programming (C++)",
-    category: "My Favorite Courses at UCSC",
-  },
-  {
-    skill: "CSE 115a: Introduction to Software Engineering",
-    category: "My Favorite Courses at UCSC",
-  },
-  {
-    skill: "CSE 130: Principles of Computer Systems Design",
-    category: "My Favorite Courses at UCSC",
-  },
-  {
-    skill: "CSE 144: Applied Machine Learning",
-    category: "My Favorite Courses at UCSC",
-  },
-  {
-    skill: "CSE 180: Database Systems",
-    category: "My Favorite Courses at UCSC",
+    skill: "Amazon Web Services",
+    category: "Developer Tools",
   },
 ] as const;
 

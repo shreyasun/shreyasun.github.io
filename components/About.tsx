@@ -21,16 +21,17 @@ function About() {
       </p>
 
       <p className="mb-3">
-        I am currently pursuing a <span className="font-medium">Bachelor&apos;s of Science in Computer Science</span> at UC Santa Cruz, where
+        I recently graduated with a <span className="font-medium">Bachelor&apos;s of Science in Computer Science</span> from UC Santa Cruz, where
         I&apos;ve had the privilege of diving into fascinating coursework, projects, and experiences that 
-        have honed my skills and increased my eagerness for continuous learning and growth. I&apos;m proficient 
+        have honed my skills and increased my eagerness for continuous learning and growth. Professionally, I have <span className="font-medium">completed 2 Software Engineering internships</span> at Realtor.com and 
+        the UC Santa Cruz Genomics Institute. I&apos;m proficient 
         in several programming languages, including <span className="font-medium">Python, JavaScript, and C</span>, and am comfortable working 
-        with databases and software development tools. I thrive in <span className="font-medium">collaborative environments</span> and enjoy 
-        working to solve complex problems.
+        with databases and software development tools. 
       </p>
 
       <p className="mb-3">
-        I am eager to embark on a career where I can <span className="font-medium">develop and design software for social good</span>, and aspire to contribute to 
+        I thrive in <span className="font-medium">collaborative environments</span> and enjoy 
+      working to solve complex problems. I am eager to embark on a career where I can <span className="font-medium">develop and design software for social good</span>, and aspire to contribute to 
         innovative solutions that have a meaningful impact. 
       </p>
 

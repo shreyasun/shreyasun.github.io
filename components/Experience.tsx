@@ -6,6 +6,7 @@ import { experiences } from "@/lib/data";
 import { useSectionInView } from "@/lib/hooks";
 import { motion } from "framer-motion";
 import { useTheme } from "@/context/theme-context";
+import { MdOutlineOpenInNew } from "react-icons/md";
 
 function Experience() {
   const { ref } = useSectionInView("Experience", 0.5);
@@ -20,7 +21,7 @@ function Experience() {
       ref={ref} 
       className="max-w-[50rem] gap-5 text-center scroll-mt-28 mb-4 sm:mb-4"
     >
-      <h1 className="text-xl font-bold">My Experience</h1>
+      <h1 className="text-xl font-bold">My Experiences</h1>
       <VerticalTimeline lineColor="#829ab1">
         {experiences.map((experience, i) => (
           <React.Fragment key={i}>
@@ -55,11 +56,24 @@ function Experience() {
                   fontSize: "0.7rem",
                 }}
               >
-                <h3 className="font-semibold capitalize">{experience.title}</h3>
-                <p className="font-normal !mt-0">{experience.company}</p>
-                <p className="!mt-1 !font-normal text-gray-700 dark:text-white/75">
-                  {experience.description}
-                </p>
+                <div className='bg-blue1 dark:bg-blue5 rounded-lg'>
+                  <h3 className="font-semibold capitalize">{experience.title}</h3>
+                  <p className="font-normal !mt-0">{experience.company}</p>
+                  <p className="!mt-1 !font-normal text-gray-700 dark:text-white/75">
+                    {experience.description}
+                  </p>
+                  {experience.link && (
+                    <div className='cursor-pointer inline-block'>
+                      <a href={experience.link} target="_blank" rel="noopener noreferrer">
+                        <div className='bg-blue3 dark:bg-blue4 mt-4 rounded-md px-3 py-1 text-sm text-gray-800 dark:text-gray-200 border border-transparent hover:bg-[#bcccdc] dark:hover:bg-gray-700 mb-2 mx-auto sm:mx-0 shadow-md flex items-center'>
+                          View Project <MdOutlineOpenInNew className="ml-1" />
+                        </div>
+                      </a>
+                    </div>
+                  )}
+                </div>
+                
+                
               </VerticalTimelineElement>
             </motion.div>
           </React.Fragment>

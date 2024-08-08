@@ -48,7 +48,7 @@ export default function Intro() {
         <span className="font-bold">Software Engineer</span> who enjoys{" "}
         <span className="font-bold">developing and designing</span> innovative digital solutions.{" "}
         My areas of interest include 
-        <span className="italic"> databases, full stack development, machine learning,</span> and more.{" "}
+        <span className="italic"> full stack development, artificial intelligence, infrastructure</span> and more.{" "}
       </motion.p>
 
       <motion.div 
@@ -70,7 +70,7 @@ export default function Intro() {
         </a>
 
         <a className="group bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover-bg-gray-950 active:scale-105 transition cursor-pointer"
-          href="mailto:ssundar6@ucsc.edu">
+          href="mailto:shreyasundar27@gmail.com">
           <MdEmail />
         </a>
 
