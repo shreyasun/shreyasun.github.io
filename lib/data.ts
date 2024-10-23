@@ -30,19 +30,39 @@ export const links = [
 ] as const;
 
 export const experiences = [
+  // {
+  //   title: "Software Engineer",
+  //   company: "American Airlines",
+  //   location: "Fort Worth, TX",
+  //   description:
+  //     "Software engineer working on building incredible travel experiences",
+  //   icon: React.createElement(HiOutlineOfficeBuilding),
+  //   date: "Jan 2025 - Present",
+  //   link: ""
+  // },
+  {
+    title: "Engineer Manager",
+    company: "Develop for Good",
+    location: "",
+    description:
+      "Co-leading a volunteer development effort for a social impact project",
+    icon: React.createElement(HiOutlineOfficeBuilding),
+    date: "Oct 2024 - Present",
+    link: ""
+  },
   {
     title: "Software Engineer Intern",
     company: "Realtor.com",
     location: "Austin, TX",
     description:
-      "SWE Intern under Customer Experiences Department",
+      "Created a cost-saving storage solution for agent-consumer call recordings",
     icon: React.createElement(HiOutlineOfficeBuilding),
-    date: "Jun 2024 - present",
+    date: "Jun 2024 - Aug 2024",
     link: "https://shreyasundar.notion.site/My-Experience-as-an-SWE-Intern-at-Realtor-com-Summer-2024-1e8b5827586f4897b079d68a61ff344f"
   },
   {
     title: "Tutor",
-    company: "Baskin School of Engineering",
+    company: "Baskin School of Engineering - UC Santa Cruz",
     location: "Santa Cruz, CA",
     description:
       "Tutor for CSE 101, Data Structures and Algorithms",
@@ -85,7 +105,7 @@ export const experiences = [
     company: "University of California, Santa Cruz",
     location: "Santa Cruz, CA",
     description:
-      "Recent grad from UCSC, majoring in Computer Science. Coursework: Python and C Programming, Data Structures, Algorithms, Machine Learning, Database Systems, Computer Systems Design, Web Applications, Artificial Intelligence, Software Engineering",
+      "Bachelor's in Computer Sciece from UCSC. Coursework: Python and C Programming, Data Structures, Algorithms, Machine Learning, Database Systems, Computer Systems Design, Web Applications, Software Engineering",
     icon: React.createElement(LuGraduationCap),
     date: "Sep 2021 - Jul 2024",
     link: ""

@@ -16,14 +16,14 @@ function About() {
     >
       <h1 className="text-xl font-bold">About me</h1>
       <p className="mb-3">
-        Hello! My name is Shreya. I am a <span className="font-medium">tech enthusiast</span>, captivated by the endless opportunities of
-        technology to shape our world and improve lives. 
+        Hello! My name is Shreya. I am a <span className="font-medium">multipassionate individual and tech enthusiast</span>, captivated by the endless opportunities of
+        technology for social good. 
       </p>
 
       <p className="mb-3">
         I recently graduated with a <span className="font-medium">Bachelor&apos;s of Science in Computer Science</span> from UC Santa Cruz, where
-        I&apos;ve had the privilege of diving into fascinating coursework, projects, and experiences that 
-        have honed my skills and increased my eagerness for continuous learning and growth. Professionally, I have <span className="font-medium">completed 2 Software Engineering internships</span> at Realtor.com and 
+        I&apos;ve dived into fascinating coursework, projects, and experiences that 
+        have honed my skills and increased my passionate for continuous learning and growth. Professionally, I have <span className="font-medium">completed 2 Software Engineering internships</span> at Realtor.com and 
         the UC Santa Cruz Genomics Institute. I&apos;m proficient 
         in several programming languages, including <span className="font-medium">Python, JavaScript, and C</span>, and am comfortable working 
         with databases and software development tools. 
@@ -37,7 +37,7 @@ function About() {
 
       <p className="mb-3">
         When I&apos;m not coding, I enjoy
-        reading, taking long walks, and listening to podcasts. I also enjoy{" "}
+        reading, taking long walks, and planning my next trip. I also enjoy{" "}
         <span className="font-medium">learning trivia and random facts</span>, especially
         about{" "} <span className="font-medium">geography, history, and astronomy</span>.
       </p>

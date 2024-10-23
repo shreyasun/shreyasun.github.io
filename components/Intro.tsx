@@ -46,9 +46,9 @@ export default function Intro() {
       >
         <span className="font-bold">Hello, I&apos;m Shreya Sundar.</span> I&apos;m a{" "}
         <span className="font-bold">Software Engineer</span> who enjoys{" "}
-        <span className="font-bold">developing and designing</span> innovative digital solutions.{" "}
+        <span className="font-bold">developing and designing</span> innovative software solutions.{" "}
         My areas of interest include 
-        <span className="italic"> full stack development, artificial intelligence, infrastructure</span> and more.{" "}
+        <span className="italic"> full stack development, machine learning, big data</span> and more.{" "}
       </motion.p>
 
       <motion.div 
