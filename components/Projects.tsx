@@ -30,11 +30,11 @@ function Projects() {
           key={category} onClick={() => changeCategory(category)}>
           {category}
         </div>
-     
         ))}
       </div>
+      
       <div className="flex">
-        <ul>
+        <ul className="">
           {filteredProjects.length === 0 ? (
             <div className='mb-4 max-w-md bg-white dark:bg-blue5 rounded-lg shadow-md p-6'>
               <h2>Coming Soon!</h2>

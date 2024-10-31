@@ -5,6 +5,9 @@ import { MdComputer } from "react-icons/md";
 import { FaLightbulb } from "react-icons/fa";
 import { FaPencilAlt } from "react-icons/fa";
 import { HiOutlineOfficeBuilding } from "react-icons/hi";
+import { HiOutlineHome } from "react-icons/hi";
+import { FaPlaneUp } from "react-icons/fa6";
+import { FaHandHoldingHeart } from "react-icons/fa";
 
 export const links = [
   {
@@ -31,14 +34,14 @@ export const links = [
 
 export const experiences = [
   // {
-  //   title: "Software Engineer",
-  //   company: "American Airlines",
-  //   location: "Fort Worth, TX",
-  //   description:
-  //     "Software engineer working on building incredible travel experiences",
-  //   icon: React.createElement(HiOutlineOfficeBuilding),
-  //   date: "Jan 2025 - Present",
-  //   link: ""
+  //    title: "Software Engineer",
+  //    company: "American Airlines",
+  //    location: "Fort Worth, TX",
+  //    description:
+  //      "Software engineer working on building incredible travel experiences",
+  //    icon: React.createElement(FaPlaneUp),
+  //    date: "Jan 2025 - Present",
+  //    link: ""
   // },
   {
     title: "Engineer Manager",
@@ -46,7 +49,7 @@ export const experiences = [
     location: "",
     description:
       "Co-leading a volunteer development effort for a social impact project",
-    icon: React.createElement(HiOutlineOfficeBuilding),
+    icon: React.createElement(FaHandHoldingHeart),
     date: "Oct 2024 - Present",
     link: ""
   },
@@ -56,7 +59,7 @@ export const experiences = [
     location: "Austin, TX",
     description:
       "Created a cost-saving storage solution for agent-consumer call recordings",
-    icon: React.createElement(HiOutlineOfficeBuilding),
+    icon: React.createElement(HiOutlineHome),
     date: "Jun 2024 - Aug 2024",
     link: "https://shreyasundar.notion.site/My-Experience-as-an-SWE-Intern-at-Realtor-com-Summer-2024-1e8b5827586f4897b079d68a61ff344f"
   },
@@ -159,6 +162,15 @@ export const projects = [
     tags: ["Group Project", "CSE 111 UCSC"]
   },
   {
+    title: "Cache Eviction Policies Simulator",
+    category: "Web",
+    description:
+      "Web tool to simulate various cache eviction policies (MRU, LRU, FIFO, Clock) in a linked-list implementation of a fully associative cache. ",
+    tools: ["Java", "Spring Boot", "React.js", "Docker"],
+    link: "https://cache-evictions-simulator.netlify.app/",
+    tags: []
+  },
+  {
     title: "Jeopardy Maker",
     category: "Web",
     description:
@@ -166,6 +178,15 @@ export const projects = [
     tools: ["React", "Node", "Express", "MongoDB", "Firebase"],
     link: "https://github.com/shreyasun/jeopardy-maker",
     tags: []
+  },
+  {
+    title: "BookTessera",
+    category: "Web",
+    description:
+      "A ticketing platform to improve ticket purchasing process for event-goers",
+    tools: ["React.js", "Firestore", "Python", "Node", "Express"],
+    link: "https://github.com/BookTessera/BookTessera",
+    tags: ["Group Project", "CSE 115A UCSC"]
   },
   {
     title: "Bloom",
@@ -194,15 +215,7 @@ export const projects = [
     link: "https://github.com/shreyasun/shreya-sundar-portfolio",
     tags: []
   },
-  {
-    title: "BookTessera",
-    category: "Web",
-    description:
-      "A ticketing platform to improve ticket purchasing process for event-goers",
-    tools: ["React.js", "Firestore", "Python", "Node", "Express"],
-    link: "https://github.com/BookTessera/BookTessera",
-    tags: ["Group Project", "CSE 115A UCSC"]
-  },
+  
 ] as const;
 
 export const skills = [

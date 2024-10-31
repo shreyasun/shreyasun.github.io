@@ -66,7 +66,7 @@ function Experience() {
                     <div className='cursor-pointer inline-block'>
                       <a href={experience.link} target="_blank" rel="noopener noreferrer">
                         <div className='bg-blue3 dark:bg-blue4 mt-4 rounded-md px-3 py-1 text-sm text-gray-800 dark:text-gray-200 border border-transparent hover:bg-[#bcccdc] dark:hover:bg-gray-700 mb-2 mx-auto sm:mx-0 shadow-md flex items-center'>
-                          View Project <MdOutlineOpenInNew className="ml-1" />
+                          View Work <MdOutlineOpenInNew className="ml-1" />
                         </div>
                       </a>
                     </div>
