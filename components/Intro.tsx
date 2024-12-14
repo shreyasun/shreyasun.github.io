@@ -3,10 +3,9 @@
 import React from "react"
 import Image from "next/image"
 import { motion } from "framer-motion"
-import Link from 'next/link';
 import { RiFilePaper2Line } from "react-icons/ri";
 import { BsLinkedin } from "react-icons/bs";
-import { FaGithubSquare } from "react-icons/fa";
+import { FaGithubSquare, FaGoodreads  } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import shreyaa from "@/lib/shreyaa.jpg";
 import { useSectionInView } from "@/lib/hooks";
@@ -44,10 +43,10 @@ export default function Intro() {
         initial={{opacity: 0, y: 100}}
         animate={{opacity: 1, y: 0}}
       >
-        <span className="font-bold">Hello, I&apos;m Shreya Sundar.</span> I&apos;m a{" "}
-        <span className="font-bold">Software Engineer</span> who enjoys{" "}
-        <span className="font-bold">developing and designing</span> innovative software solutions.{" "}
-        My areas of interest include 
+        <span className="font-bold">Hello, I&apos;m Shreya. 👩🏽‍💻</span> <br/>I&apos;m a{" "}
+        Software Engineer who enjoys{" "}
+        developing and designing innovative software solutions.{" "}
+        I'm interested in 
         <span className="italic"> full stack development, machine learning, big data</span> and more.{" "}
       </motion.p>
 
@@ -77,6 +76,11 @@ export default function Intro() {
         <a className="group bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full outline-none focus:scale-110 hover:scale-110 hover-bg-gray-950 active:scale-105 transition cursor-pointer"
           href="https://www.github.com/shreyasun" target="_blank">
           <FaGithubSquare />
+        </a>
+
+        <a className="group bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full outline-none focus:scale-110 hover:scale-110 hover-bg-gray-950 active:scale-105 transition cursor-pointer"
+          href="https://www.goodreads.com/user/show/153897581-shreya" target="_blank">
+          <FaGoodreads />
         </a>
       </motion.div>
       <Footer />

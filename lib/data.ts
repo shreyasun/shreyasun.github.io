@@ -34,13 +34,13 @@ export const links = [
 
 export const experiences = [
   // {
-  //    title: "Software Engineer",
-  //    company: "American Airlines",
-  //    location: "Fort Worth, TX",
+  //    title: "Associate Software Engineer",
+  //    company: "Realtor.com",
+  //    location: "Austin, TX",
   //    description:
-  //      "Software engineer working on building incredible travel experiences",
-  //    icon: React.createElement(FaPlaneUp),
-  //    date: "Jan 2025 - Present",
+  //      "Software engineer working on building incredible real estate experiences",
+  //    icon: React.createElement(HiOutlineHome),
+  //    date: "Feb 2025 - Present",
   //    link: ""
   // },
   {
@@ -104,13 +104,13 @@ export const experiences = [
     link: ""
   },
   {
-    title: "Student",
+    title: "Computer Science Student",
     company: "University of California, Santa Cruz",
     location: "Santa Cruz, CA",
     description:
-      "Bachelor's in Computer Sciece from UCSC. Coursework: Python and C Programming, Data Structures, Algorithms, Machine Learning, Database Systems, Computer Systems Design, Web Applications, Software Engineering",
+      "Coursework: Python and C Programming, Data Structures, Algorithms, Machine Learning, Database Systems, Computer Systems Design, Web Applications, Software Engineering",
     icon: React.createElement(LuGraduationCap),
-    date: "Sep 2021 - Jul 2024",
+    date: "",
     link: ""
   }
 ] as const;
