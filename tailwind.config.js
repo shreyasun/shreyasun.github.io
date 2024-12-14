@@ -19,6 +19,9 @@ module.exports = {
         blue4: '#486581',
         blue5: '#102a43',
       },
+      listStyleType: {
+        circle: 'circle',
+      },
     },
   },
   plugins: [],
