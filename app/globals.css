@@ -5,3 +5,13 @@ html{scroll-behavior: smooth;}
 body {
     overflow-y: scroll;
 }
+
+/* globals.css or any global stylesheet */
+:root {
+    --background: #102a43;
+    --purp1: #486581;
+    --purp2: #829ab1;
+    --purp3: #bcccdc;
+    --purp4: #f0f4f8;
+  }
+  

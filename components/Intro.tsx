@@ -35,7 +35,7 @@ export default function Intro() {
             height="192"
             quality="95"
             priority={true}
-            className="h-24 w-24 rounded-full object-cover border-[0.35rem] border-white shadow-xl"
+            className="h-24 w-24 rounded-full object-cover border-[0.35rem] border-purp4 shadow-xl"
           />
         </motion.div>
       </div>
@@ -45,7 +45,7 @@ export default function Intro() {
       >
         <span className="font-bold">Hello, I&apos;m Shreya. 👩🏽‍💻</span> <br/>I&apos;m a{" "}
         Software Engineer who enjoys{" "}
-        developing and designing innovative software solutions.{" "}
+        developing innovative solutions for social good.{" "}
         I&apos;m interested in 
         <span className="italic"> full stack development, machine learning, big data</span> and more.{" "}
       </motion.p>
@@ -59,26 +59,26 @@ export default function Intro() {
         }}
       >
         <a href="https://github.com/shreyasun/shreya_sundar_resume" target="_blank"
-          className="group bg-white text-black px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover-bg-gray-950 active:scale-105 transition">
-          Resume <RiFilePaper2Line className="opacity-70 group-hover:translate-x-1 transition"/>
+          className="group bg-purp4 text-purp1 px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover-bg-purp1 active:scale-105 transition">
+          Resume <RiFilePaper2Line className="group-hover:translate-x-1 transition"/>
         </a>
 
-        <a className="group bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover-bg-gray-950 active:scale-105 transition cursor-pointer"
+        <a className="group bg-purp4 p-4 text-purp1 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover-bg-purp1-950 active:scale-105 transition cursor-pointer"
           href="https://www.linkedin.com/in/shreyasundar" target="_blank">
           <BsLinkedin />
         </a>
 
-        <a className="group bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover-bg-gray-950 active:scale-105 transition cursor-pointer"
+        <a className="group bg-purp4 p-4 text-purp1 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover-bg-purp1-950 active:scale-105 transition cursor-pointer"
           href="mailto:shreyasundar27@gmail.com">
           <MdEmail />
         </a>
 
-        <a className="group bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full outline-none focus:scale-110 hover:scale-110 hover-bg-gray-950 active:scale-105 transition cursor-pointer"
+        <a className="group bg-purp4 p-4 text-purp1 flex items-center gap-2 text-[1.35rem] rounded-full outline-none focus:scale-110 hover:scale-110 hover-bg-purp1-950 active:scale-105 transition cursor-pointer"
           href="https://www.github.com/shreyasun" target="_blank">
           <FaGithubSquare />
         </a>
 
-        <a className="group bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full outline-none focus:scale-110 hover:scale-110 hover-bg-gray-950 active:scale-105 transition cursor-pointer"
+        <a className="group bg-purp4 p-4 text-purp1 flex items-center gap-2 text-[1.35rem] rounded-full outline-none focus:scale-110 hover:scale-110 hover-bg-purp1-950 active:scale-105 transition cursor-pointer"
           href="https://www.goodreads.com/user/show/153897581-shreya" target="_blank">
           <FaGoodreads />
         </a>

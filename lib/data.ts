@@ -1,22 +1,9 @@
 import React from "react";
-import { LuGraduationCap } from "react-icons/lu";
-import { FaDna } from "react-icons/fa";
-import { MdComputer } from "react-icons/md";
-import { FaLightbulb } from "react-icons/fa";
-import { FaPencilAlt } from "react-icons/fa";
-import { HiOutlineOfficeBuilding } from "react-icons/hi";
-import { HiOutlineHome } from "react-icons/hi";
-import { FaPlaneUp } from "react-icons/fa6";
-import { FaHandHoldingHeart } from "react-icons/fa";
 
 export const links = [
   {
     name: "Intro",
     hash: "#intro",
-  },
-  {
-    name: "About",
-    hash: "#about",
   },
   {
     name: "Experience",
@@ -26,30 +13,23 @@ export const links = [
     name: "Projects",
     hash: "#projects",
   },
-  {
-    name: "Skills",
-    hash: "#skills",
-  },
 ] as const;
 
 export const experiences = [
-  // {
-  //    title: "Associate Software Engineer",
-  //    company: "Realtor.com",
-  //    location: "Austin, TX",
-  //    description:
-  //      "Software engineer working on building incredible real estate experiences",
-  //    icon: React.createElement(HiOutlineHome),
-  //    date: "Feb 2025 - Present",
-  //    link: ""
-  // },
+  /*{
+    title: "Associate Software Engineer",
+    company: "Realtor.com",
+    location: "Austin, TX",
+    description: "Software engineer working on building incredible real estate experiences",
+    date: "Feb 2025 - Present",
+    link: ""
+  },*/
   {
     title: "Engineer Manager",
     company: "Develop for Good",
     location: "",
     description:
       "Co-leading a volunteer development effort for a social impact project",
-    icon: React.createElement(FaHandHoldingHeart),
     date: "Oct 2024 - Present",
     link: ""
   },
@@ -59,7 +39,6 @@ export const experiences = [
     location: "Austin, TX",
     description:
       "Created a cost-saving storage solution for agent-consumer call recordings",
-    icon: React.createElement(HiOutlineHome),
     date: "Jun 2024 - Aug 2024",
     link: "https://shreyasundar.notion.site/My-Experience-as-an-SWE-Intern-at-Realtor-com-Summer-2024-1e8b5827586f4897b079d68a61ff344f"
   },
@@ -69,7 +48,6 @@ export const experiences = [
     location: "Santa Cruz, CA",
     description:
       "Tutor for CSE 101, Data Structures and Algorithms",
-    icon: React.createElement(FaPencilAlt),
     date: "Sep 2023 - Apr 2024",
     link: "",
   },
@@ -79,7 +57,6 @@ export const experiences = [
     location: "Santa Cruz, CA",
     description:
       "Contributed to the development of a genomic data visualization application",
-    icon: React.createElement(FaDna),
     date: "Nov 2022 - May 2024",
     link: "https://shreyasundar.notion.site/My-Experience-as-an-SDE-Intern-at-UC-Santa-Cruz-Genomics-Institute-2022-2024-5e90e55b975940458d400eaae9a8c399?pvs=25"
   },
@@ -89,7 +66,6 @@ export const experiences = [
     location: "Santa Cruz, CA",
     description:
       "Led UCSC's premier UI/UX Design Organization",
-    icon: React.createElement(FaLightbulb),
     date: "Sep 2022 - Mar 2024",
     link: ""
   },
@@ -99,53 +75,15 @@ export const experiences = [
     location: "Santa Cruz, CA",
     description:
       "Contributed to development and design of several full stack applications",
-    icon: React.createElement(MdComputer),
     date: "Mar 2022 - Sep 2023",
     link: ""
   },
-  {
-    title: "Computer Science Student",
-    company: "University of California, Santa Cruz",
-    location: "Santa Cruz, CA",
-    description:
-      "Coursework: Python and C Programming, Data Structures, Algorithms, Machine Learning, Database Systems, Computer Systems Design, Web Applications, Software Engineering",
-    icon: React.createElement(LuGraduationCap),
-    date: "",
-    link: ""
-  }
 ] as const;
 
 export const projects = [
   {
-    title: "Life Expectancy Data Exploration",
-    category: "Data",
-    description:
-      "Data exploration of life expectancy and communicable disease mortality rates, from World Bank datasets",
-    tools: ["SQL", "MySQL", "Tableau"],
-    link: "https://github.com/shreyasun/leb-cd-analysis",
-    tags: []
-  },
-  {
-    title: "Schmidt-Samoa Cryptography",
-    category: "C/C++",
-    description:
-      "Large integers, which are difficult to factor, are used to generate a public-private key pair. The public key is used to encrypt a file, and the encrypted file can only be decrypted by using the respective private key.",
-    tools: ["C", "Linux"],
-    link: "https://github.com/shreyasun/lz-compression",
-    tags: ["CSE 13S UCSC"]
-  },
-  {
-    title: "Lempel-Ziv Data Compression",
-    category: "C/C++",
-    description:
-      "Lossless data compression algorithm that stores recurring patterns of data in a dictionary, compressing the data input. Decompression reconstructs original data using these encoded dictionary references.",
-    tools: ["C", "Linux"],
-    link: "https://github.com/shreyasun/ss-cryptography",
-    tags: ["CSE 13S UCSC"]
-  },
-  {
     title: "Conway's Game of Life",
-    category: "C/C++",
+    category: "",
     description:
       "In a 2D universe, cells interact with neighbors over a period of time. A live cell with 2 or 3 live neighbors survives, while a dead cell with exactly 3 live neighbors becomes alive. All other cells die, due to loneliness or overcrowding.",
     tools: ["C", "Linux"],
@@ -163,7 +101,7 @@ export const projects = [
   },
   {
     title: "Cache Eviction Policies Simulator",
-    category: "Web",
+    category: "featured",
     description:
       "Web tool to simulate various cache eviction policies (MRU, LRU, FIFO, Clock) in a linked-list implementation of a fully associative cache. ",
     tools: ["Java", "Spring Boot", "React.js", "Docker"],
@@ -172,7 +110,7 @@ export const projects = [
   },
   {
     title: "Jeopardy Maker",
-    category: "Web",
+    category: "featured",
     description:
       "Jeopardy! is one of the most popular American game shows. In this interactive Jeopardy Maker tool, users can create trivia cards to be rendered into an interactive Jeopardy Board. ",
     tools: ["React", "Node", "Express", "MongoDB", "Firebase"],
@@ -181,7 +119,7 @@ export const projects = [
   },
   {
     title: "BookTessera",
-    category: "Web",
+    category: "",
     description:
       "A ticketing platform to improve ticket purchasing process for event-goers",
     tools: ["React.js", "Firestore", "Python", "Node", "Express"],
@@ -190,7 +128,7 @@ export const projects = [
   },
   {
     title: "Bloom",
-    category: "Product",
+    category: "",
     description:
       "Minimally designed secondhand clothing website that simplifies the shopping experience, allowing user to easily find what they're looking for, get the information they require without being overwhelmed, and check out without too many steps.",
     tools: ["Figma", "Google Workspace", "Notion"],
@@ -199,7 +137,7 @@ export const projects = [
   },
   {
     title: "Mon Ami",
-    category: "Product",
+    category: "",
     description:
       "All-in-one mental wellness platform that provides users access to mental health content and the opportunity to build connections and interact with individuals and groups in a supportive community.",
     tools: ["Figma", "Google Workspace", "Notion"],
@@ -208,112 +146,38 @@ export const projects = [
   },
   {
     title: "My Portfolio",
-    category: "Web",
+    category: "",
     description:
       "My personal portfolio website (you're looking at it now!)",
     tools: ["Next.js", "React.js", "TypeScript"],
     link: "https://github.com/shreyasun/shreya-sundar-portfolio",
     tags: []
   },
-  
-] as const;
-
-export const skills = [
   {
-    skill: "JavaScript",
-    category: "Programming Languages",
+    title: "Life Expectancy Data Exploration",
+    category: "Data",
+    description:
+      "Data exploration of life expectancy and communicable disease mortality rates, from World Bank datasets",
+    tools: ["SQL", "MySQL", "Tableau"],
+    link: "https://github.com/shreyasun/leb-cd-analysis",
+    tags: []
   },
   {
-    skill: "Python",
-    category: "Programming Languages",
+    title: "Schmidt-Samoa Cryptography",
+    category: "",
+    description:
+      "Large integers, which are difficult to factor, are used to generate a public-private key pair. The public key is used to encrypt a file, and the encrypted file can only be decrypted by using the respective private key.",
+    tools: ["C", "Linux"],
+    link: "https://github.com/shreyasun/lz-compression",
+    tags: ["CSE 13S UCSC"]
   },
   {
-    skill: "C",
-    category: "Programming Languages",
-  },
-  {
-    skill: "C++",
-    category: "Programming Languages",
-  },
-  {
-    skill: "Java",
-    category: "Programming Languages",
-  },
-  {
-    skill: "SQL",
-    category: "Programming Languages",
-  },
-  {
-    skill: "React.js",
-    category: "Frameworks and Libraries",
-  },
-  {
-    skill: "HTML",
-    category: "Programming Languages",
-  },
-  {
-    skill: "CSS",
-    category: "Programming Languages",
-  },
-  {
-    skill: "Next.js",
-    category: "Frameworks and Libraries",
-  },
-  {
-    skill: "Node.js",
-    category: "Frameworks and Libraries",
-  },
-  {
-    skill: "Pandas",
-    category: "Frameworks and Libraries",
-  },
-  {
-    skill: "NumPy",
-    category: "Frameworks and Libraries",
-  },
-  {
-    skill: "Scikit-Learn",
-    category: "Frameworks and Libraries",
-  },
-  {
-    skill: "Git",
-    category: "Developer Tools",
-  },
-  {
-    skill: "MongoDB",
-    category: "Developer Tools",
-  },
-  {
-    skill: "MySQL",
-    category: "Developer Tools",
-  },
-  {
-    skill: "Google Workspace",
-    category: "Developer Tools",
-  },
-  {
-    skill: "Microsoft Office",
-    category: "Developer Tools",
-  },
-  {
-    skill: "Jupyter",
-    category: "Developer Tools",
-  },
-  {
-    skill: "Figma",
-    category: "Developer Tools",
-  },
-  {
-    skill: "Amazon Web Services",
-    category: "Developer Tools",
-  },
-] as const;
-
-
-export const categories = [
-  "Web",
-  "C/C++",
-  "Data",
-  "Product",
-  "Other"
+    title: "Lempel-Ziv Data Compression",
+    category: "",
+    description:
+      "Lossless data compression algorithm that stores recurring patterns of data in a dictionary, compressing the data input. Decompression reconstructs original data using these encoded dictionary references.",
+    tools: ["C", "Linux"],
+    link: "https://github.com/shreyasun/ss-cryptography",
+    tags: ["CSE 13S UCSC"]
+  }  
 ] as const;
