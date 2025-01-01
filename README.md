@@ -1,5 +1,7 @@
-## My portfolio, continually being updated
+## A portfolio showcasing my software engineering journey
 
-## shreya-sundar.netlify.app
+## [shreyasun.github.io](https://shreyasun.github.io/)
 
-Color scheme: https://www.color-hex.com/color-palette/112837
+### Notable resources
+- https://www.freecodecamp.org/news/how-to-deploy-next-js-app-to-github-pages/
+- https://www.youtube.com/watch?v=sUKptmUVIBM&feature=youtu.be

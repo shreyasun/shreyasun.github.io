@@ -58,7 +58,7 @@ export default function Intro() {
           delay: 0.1
         }}
       >
-        <a href="https://github.com/shreyasun/shreya_sundar_resume" target="_blank"
+        <a href="https://github.com/shreyasun/shreya_sundar_resume/blob/main/ShreyaSundarResume.pdf" target="_blank"
           className="group bg-purp4 text-purp1 px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover-bg-purp1 active:scale-105 transition">
           Resume <RiFilePaper2Line className="group-hover:translate-x-1 transition"/>
         </a>
