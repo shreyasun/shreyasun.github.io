@@ -17,13 +17,13 @@ function Experience() {
       className="max-w-[50rem] gap-5 text-center scroll-mt-5 mb-4 mx-auto sm:mb-4 flex flex-col items-center"
       ref={ref}
     >
-      <h1 className="text-xl font-bold mb-6">My Experiences</h1>
+      <h1 className="text-xl text-bold">My Experiences</h1>
       <div className="space-y-8 mx-auto max-w-full items-center">
         {experiences.map((experience, index) => (
           <div key={index} className="flex items-start space-x-4">
             <div className="flex-shrink-0 w-3 h-3 bg-purp1 rounded-full mt-1"></div>
             <div className="flex flex-col text-left">
-              <h3 className="font-semibold capitalize text-purp3">
+              <h3 className="font-semibold text-purp3 text-transform-none">
                 {experience.title} @ {experience.company}
               </h3>
               <p className="font-normal text-purp2">{experience.date}</p>

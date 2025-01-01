@@ -29,8 +29,8 @@ function Projects() {
               key={i} 
               className='max-w-[50rem] mb-2 bg-background rounded-lg shadow-md p-2 flex flex-col items-start'
             >
-              <h2><b>{project.title}</b></h2>
-              <p>{project.description}</p>
+              <h2 className="text-purp3 font-semibold">{project.title}</h2>
+              <p className="text-purp2">{project.description}</p>
               <ul className="flex flex-wrap gap-1">
                 {project.tools.map((tool, i) => (
                   <li
@@ -41,9 +41,9 @@ function Projects() {
                   </li>
                 ))}
               </ul>
-              <div className='cursor-pointer inline-block'>
+              <div className="mt-1 block cursor-pointer">
                 <a href={project.link} target="_blank" rel="noopener noreferrer">
-                  <div className='bg-purp2 mt-2 rounded-md px-2 py-1 text-sm text-purp3 border-transparent hover:bg-purp3 mb-2 mx-auto shadow-md flex items-center'>
+                  <div className="bg-purp3 rounded-md px-3 py-1 mt-2 text-sm text-purp1 border border-transparent hover:bg-purp4 shadow-md flex items-center inline-flex">
                     View Project <MdOutlineOpenInNew className="ml-1" />
                   </div>
                 </a>
@@ -61,8 +61,8 @@ function Projects() {
               key={i} 
               className='max-w-[50rem] mb-2 bg-background rounded-lg shadow-md p-2 flex flex-col items-start'
             >
-              <h2 className="font-semibold capitalize text-purp3"><b>{project.title}</b></h2>
-              <p>{project.description}</p>
+              <h2 className="text-purp3 font-semibold">{project.title}</h2>
+              <p className="text-purp2">{project.description}</p>
               <ul className="flex flex-wrap gap-1">
                 {project.tools.map((tool, i) => (
                   <li
@@ -73,9 +73,9 @@ function Projects() {
                   </li>
                 ))}
               </ul>
-              <div className='cursor-pointer inline-block'>
+              <div className="mt-1 block cursor-pointer">
                 <a href={project.link} target="_blank" rel="noopener noreferrer">
-                  <div className='bg-purp2 mt-2 rounded-md px-2 py-1 text-sm text-purp1 border-transparent hover:bg-purp3 mb-2 mx-auto shadow-md flex items-center'>
+                  <div className="bg-purp3 rounded-md px-3 py-1 mt-2 text-sm text-purp1 border border-transparent hover:bg-purp4 shadow-md flex items-center inline-flex">
                     View Project <MdOutlineOpenInNew className="ml-1" />
                   </div>
                 </a>
@@ -83,6 +83,8 @@ function Projects() {
             </div>
           ))
         }
+        <div></div>
+        <div></div>
       </div>
     </motion.section>
   );
