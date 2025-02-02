@@ -16,14 +16,14 @@ export const links = [
 ] as const;
 
 export const experiences = [
-  /*{
+  {
     title: "Associate Software Engineer",
     company: "Realtor.com",
     location: "Austin, TX",
-    description: "Software engineer working on building incredible real estate experiences",
+    description: "Software engineer building real estate experiences",
     date: "Feb 2025 - Present",
     link: ""
-  },*/
+  },
   {
     title: "Engineer Manager",
     company: "Develop for Good",
