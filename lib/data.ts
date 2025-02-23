@@ -29,9 +29,9 @@ export const experiences = [
     company: "Develop for Good",
     location: "",
     description:
-      "Co-leading a volunteer development effort for a social impact project",
-    date: "Oct 2024 - Present",
-    link: ""
+      "Leading development of a dashboard providing educational analytics, insights, and visualizations for a nonprofit",
+    date: "Oct 2024 - Feb 2025",
+    link: "https://docs.google.com/document/d/1zujWHhhBjqxu38RzUXUCmSxdULfytIgtmFEMp9KdjMM/edit?tab=t.0"
   },
   {
     title: "Software Engineer Intern",
