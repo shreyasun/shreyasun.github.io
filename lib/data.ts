@@ -82,24 +82,6 @@ export const experiences = [
 
 export const projects = [
   {
-    title: "Conway's Game of Life",
-    category: "",
-    description:
-      "In a 2D universe, cells interact with neighbors over a period of time. A live cell with 2 or 3 live neighbors survives, while a dead cell with exactly 3 live neighbors becomes alive. All other cells die, due to loneliness or overcrowding.",
-    tools: ["C", "Linux"],
-    link: "https://github.com/shreyasun/game-of-life",
-    tags: ["CSE 13S UCSC"]
-  },
-  {
-    title: "Banana Slug Emulator",
-    category: "C/C++",
-    description:
-      "Implemented an emulator for the fictional video game console, the Banana, from ROM binary file input. Utilized high speed and low level C++ design for CPU, Memory, GPU, and Operating System.",
-    tools: ["C++", "Linux"],
-    link: "https://shreyasundar.notion.site/Banana-Emulator-CSE-111-Final-Project-Spring-2024-71c427531701448e9616b251e2c81845",
-    tags: ["Group Project", "CSE 111 UCSC"]
-  },
-  {
     title: "Cache Eviction Policies Simulator",
     category: "featured",
     description:
@@ -143,24 +125,6 @@ export const projects = [
     tools: ["Figma", "Google Workspace", "Notion"],
     link: "https://shreyasundar.notion.site/Mon-Ami-UX-Case-Study-33034bf8046048c796156365a7518fe5",
     tags: ["Group Project", "Creative Tech Design @ UCSC"]
-  },
-  {
-    title: "My Portfolio",
-    category: "",
-    description:
-      "My personal portfolio website (you're looking at it now!)",
-    tools: ["Next.js", "React.js", "TypeScript"],
-    link: "https://github.com/shreyasun/shreya-sundar-portfolio",
-    tags: []
-  },
-  {
-    title: "Life Expectancy Data Exploration",
-    category: "Data",
-    description:
-      "Data exploration of life expectancy and communicable disease mortality rates, from World Bank datasets",
-    tools: ["SQL", "MySQL", "Tableau"],
-    link: "https://github.com/shreyasun/leb-cd-analysis",
-    tags: []
   },
   {
     title: "Schmidt-Samoa Cryptography",

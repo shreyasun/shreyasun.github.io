@@ -1,8 +1,8 @@
-/** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
   reactStrictMode: true,
   images: {
+    unoptimized: true,
     remotePatterns: [
       {
         protocol: "https",
@@ -11,9 +11,9 @@ const nextConfig = {
     ],
   },
   experimental: {
-    serverActions: true,
+    serverActions: {}, // or remove if unused
   },
-  trailingSlash: true, 
+  trailingSlash: true,
 };
-  
+
 module.exports = nextConfig;
