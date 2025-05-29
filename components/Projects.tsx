@@ -20,7 +20,7 @@ function Projects() {
       <div className="grid grid-cols-2 gap-2 w-full justify-center">
         {
           projects.map((project, i) => (
-            <a href={project.link} target="_blank" rel="noopener noreferrer">
+            <a href={project.link} key={i} target="_blank" rel="noopener noreferrer">
               <div 
                 key={i} 
                 className="max-w-[50rem] h-[20rem] mb-2 bg-white rounded-lg shadow-md p-2 flex flex-col items-start"
