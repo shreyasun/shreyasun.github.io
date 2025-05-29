@@ -32,7 +32,7 @@ export default function Header({ setActiveComponent }: HeaderProps) {
         animate={{ y: 0, x: "-50%", opacity: 1 }}
       >
         <nav className="flex items-center justify-center">
-          <ul className="flex flex-nowrap items-center gap-5 text-[0.9rem] font-medium text-gray-500">
+          <ul className="flex flex-nowrap items-center gap-5 text-[0.9rem] font-medium text-text">
             {links.map((link) => (
               <motion.li
                 className="flex items-center justify-center"
@@ -42,9 +42,9 @@ export default function Header({ setActiveComponent }: HeaderProps) {
               >
                 <button
                   className={clsx(
-                    "px-3 py-2 hover:text-gray-950 transition",
+                    "px-3 py-2 hover:text-pink transition",
                     {
-                      "text-gray-950": activeSection === link.name,
+                      "text-text": activeSection === link.name,
                     }
                   )}
                   onClick={() => handleButtonClick(link.name)}

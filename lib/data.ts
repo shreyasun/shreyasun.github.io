@@ -1,4 +1,15 @@
-import React from "react";
+import rdc from "@/lib/rdc_logo.png"
+import dfg from "@/lib/dfg_logo.png"
+import bsoe from "@/lib/bsoe_logo.png"
+import t4g from "@/lib/t4g_logo.jpg"
+import gi from "@/lib/ucsc-gi_logo.jpg"
+import ctd from "@/lib/ctd_logo.jpg"
+//
+import monami from "@/lib/mon_ami_cover.png"
+import dfg_proj from "@/lib/dfg_proj.png"
+import bloom from "@/lib/bloom_cover.png"
+import rdc_sum from "@/lib/rdc_sum.png"
+
 
 export const links = [
   {
@@ -19,129 +30,113 @@ export const experiences = [
   {
     title: "Associate Software Engineer",
     company: "Realtor.com",
-    location: "Austin, TX",
     description: "Software engineer building real estate experiences",
     date: "Feb 2025 - Present",
-    link: ""
+    link: "",
+    image: rdc,
   },
   {
-    title: "Engineer Manager",
+    title: "Engineering Manager",
     company: "Develop for Good",
-    location: "",
     description:
-      "Leading development of a dashboard providing educational analytics, insights, and visualizations for a nonprofit",
+      "Data pipeline powering an analytics dashboard that delivers educational insights and visualizations for a nonprofit",
     date: "Oct 2024 - Feb 2025",
-    link: "https://docs.google.com/document/d/1zujWHhhBjqxu38RzUXUCmSxdULfytIgtmFEMp9KdjMM/edit?tab=t.0"
+    link: "https://docs.google.com/document/d/1zujWHhhBjqxu38RzUXUCmSxdULfytIgtmFEMp9KdjMM/edit?tab=t.0",
+    image: dfg,
   },
   {
     title: "Software Engineer Intern",
     company: "Realtor.com",
-    location: "Austin, TX",
     description:
       "Created a cost-saving storage solution for agent-consumer call recordings",
     date: "Jun 2024 - Aug 2024",
-    link: "https://shreyasundar.notion.site/My-Experience-as-an-SWE-Intern-at-Realtor-com-Summer-2024-1e8b5827586f4897b079d68a61ff344f"
+    link: "https://shreyasundar.notion.site/My-Experience-as-an-SWE-Intern-at-Realtor-com-Summer-2024-1e8b5827586f4897b079d68a61ff344f",
+    image: rdc,
   },
   {
     title: "Tutor",
     company: "Baskin School of Engineering - UC Santa Cruz",
-    location: "Santa Cruz, CA",
     description:
       "Tutor for CSE 101, Data Structures and Algorithms",
     date: "Sep 2023 - Apr 2024",
-    link: "",
+    image: bsoe,
   },
   {
     title: "Software Developer Intern",
     company: "UC Santa Cruz Genomics Institute",
-    location: "Santa Cruz, CA",
     description:
       "Contributed to the development of a genomic data visualization application",
     date: "Nov 2022 - May 2024",
-    link: "https://shreyasundar.notion.site/My-Experience-as-an-SDE-Intern-at-UC-Santa-Cruz-Genomics-Institute-2022-2024-5e90e55b975940458d400eaae9a8c399?pvs=25"
+    link: "https://shreyasundar.notion.site/My-Experience-as-an-SDE-Intern-at-UC-Santa-Cruz-Genomics-Institute-2022-2024-5e90e55b975940458d400eaae9a8c399?pvs=25",
+    image: gi,
   },
   {
     title: "Co-President",
     company: "Creative Tech Design @ UCSC",
-    location: "Santa Cruz, CA",
     description:
       "Led UCSC's premier UI/UX Design Organization",
     date: "Sep 2022 - Mar 2024",
-    link: ""
+    link: "",
+    image: ctd,
   },
   {
     title: "Web Developer",
     company: "Tech4Good Research Laboratory",
-    location: "Santa Cruz, CA",
     description:
       "Contributed to development and design of several full stack applications",
     date: "Mar 2022 - Sep 2023",
-    link: ""
+    link: "",
+    image: t4g,
   },
 ] as const;
 
 export const projects = [
   {
-    title: "Cache Eviction Policies Simulator",
-    category: "featured",
+    title: "Realtor.com Internship",
     description:
-      "Web tool to simulate various cache eviction policies (MRU, LRU, FIFO, Clock) in a linked-list implementation of a fully associative cache. ",
-    tools: ["Java", "Spring Boot", "React.js", "Docker"],
-    link: "https://cache-evictions-simulator.netlify.app/",
-    tags: []
+      "A cost-saving storage solution for agent-consumer call recordings.",
+    tools: ["Amazon Web Services", "IAM", "S3", "Terraform", "Python", "PostgreSQL"],
+    link: "https://docs.google.com/presentation/d/1mvN4W-jtCX7kPPjWaKbAsp4zlKWXUNED872lftbwbss/edit?slide=id.g13bbb6e15e6_0_0#slide=id.g13bbb6e15e6_0_0",
+    image: rdc_sum
+  },
+  {
+    title: "Develop for Good Project",
+    description:
+      "Data pipeline powering an analytics dashboard that delivers educational insights and visualizations for a nonprofit.",
+    tools: ["Google Cloud Platform", "BigQuery", "Cloud Run", "Looker Studio", "Python", "SQL"],
+    link: "",
+    image: dfg_proj
   },
   {
     title: "Jeopardy Maker",
-    category: "featured",
     description:
-      "Jeopardy! is one of the most popular American game shows. In this interactive Jeopardy Maker tool, users can create trivia cards to be rendered into an interactive Jeopardy Board. ",
+      "Tool for users to create trivia cards that will be rendered into an interactive Jeopardy Board.",
     tools: ["React", "Node", "Express", "MongoDB", "Firebase"],
     link: "https://github.com/shreyasun/jeopardy-maker",
-    tags: []
+    image: ""
   },
   {
     title: "BookTessera",
-    category: "",
     description:
-      "A ticketing platform to improve ticket purchasing process for event-goers",
+      "A ticketing platform to improve ticket purchasing process for event-goers.",
     tools: ["React.js", "Firestore", "Python", "Node", "Express"],
     link: "https://github.com/BookTessera/BookTessera",
-    tags: ["Group Project", "CSE 115A UCSC"]
+    image: ""
   },
   {
     title: "Bloom",
-    category: "",
     description:
-      "Minimally designed secondhand clothing website that simplifies the shopping experience, allowing user to easily find what they're looking for, get the information they require without being overwhelmed, and check out without too many steps.",
+      "Minimally designed secondhand clothing website that simplifies the online shopping experience.",
     tools: ["Figma", "Google Workspace", "Notion"],
     link: "https://shreyasundar.notion.site/Bloom-Case-Study-50ea5165023f4257b00af778a80e6752",
-    tags: ["Group Project", "Creative Tech Design @ UCSC"]
+    image: bloom
   },
   {
     title: "Mon Ami",
-    category: "",
     description:
-      "All-in-one mental wellness platform that provides users access to mental health content and the opportunity to build connections and interact with individuals and groups in a supportive community.",
+      "All-in-one mental wellness platform that provides users mental health content and a supportive community.",
     tools: ["Figma", "Google Workspace", "Notion"],
     link: "https://shreyasundar.notion.site/Mon-Ami-UX-Case-Study-33034bf8046048c796156365a7518fe5",
-    tags: ["Group Project", "Creative Tech Design @ UCSC"]
+    image: monami
   },
-  {
-    title: "Schmidt-Samoa Cryptography",
-    category: "",
-    description:
-      "Large integers, which are difficult to factor, are used to generate a public-private key pair. The public key is used to encrypt a file, and the encrypted file can only be decrypted by using the respective private key.",
-    tools: ["C", "Linux"],
-    link: "https://github.com/shreyasun/lz-compression",
-    tags: ["CSE 13S UCSC"]
-  },
-  {
-    title: "Lempel-Ziv Data Compression",
-    category: "",
-    description:
-      "Lossless data compression algorithm that stores recurring patterns of data in a dictionary, compressing the data input. Decompression reconstructs original data using these encoded dictionary references.",
-    tools: ["C", "Linux"],
-    link: "https://github.com/shreyasun/ss-cryptography",
-    tags: ["CSE 13S UCSC"]
-  }  
 ] as const;
