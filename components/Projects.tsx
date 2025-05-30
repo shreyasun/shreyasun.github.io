@@ -23,9 +23,9 @@ function Projects() {
             <a href={project.link} key={i} target="_blank" rel="noopener noreferrer">
               <div 
                 key={i} 
-                className="max-w-[50rem] h-[20rem] mb-2 bg-white rounded-lg shadow-md p-2 flex flex-col items-start"
+                className="max-w-[50rem] h-[20rem] mb-2 rounded-lg shadow-md p-2 flex flex-col items-start hover:backdrop-blur-lg hover:bg-pink/40"
               >
-              <div className="relative w-full h-40 bg-white rounded-xl mt-1 mb-3 overflow-hidden">
+              <div className="relative w-full h-40 rounded-xl mt-1 mb-3 overflow-hidden">
                 <Image
                   src={project.image}
                   alt="Project image"

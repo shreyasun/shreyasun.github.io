@@ -9,6 +9,9 @@ import monami from "@/lib/mon_ami_cover.png"
 import dfg_proj from "@/lib/dfg_proj.png"
 import bloom from "@/lib/bloom_cover.png"
 import rdc_sum from "@/lib/rdc_sum.png"
+import jeo from "@/lib/jeo.png"
+import booktessera from "@/lib/booktessera.png"
+
 
 
 export const links = [
@@ -113,7 +116,7 @@ export const projects = [
       "Tool for users to create trivia cards that will be rendered into an interactive Jeopardy Board.",
     tools: ["React", "Node", "Express", "MongoDB", "Firebase"],
     link: "https://github.com/shreyasun/jeopardy-maker",
-    image: ""
+    image: jeo
   },
   {
     title: "BookTessera",
@@ -121,7 +124,7 @@ export const projects = [
       "A ticketing platform to improve ticket purchasing process for event-goers.",
     tools: ["React.js", "Firestore", "Python", "Node", "Express"],
     link: "https://github.com/BookTessera/BookTessera",
-    image: ""
+    image: booktessera
   },
   {
     title: "Bloom",

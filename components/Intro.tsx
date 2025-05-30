@@ -19,7 +19,6 @@ export default function Intro() {
       className="mb-25 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem]"
       ref={ref}
     >
-      <p>Site under reconstruction!</p>
       <div className='flex items-center justify-center'>
         <motion.div
           initial={{ opacity: 0, scale: 0 }}
