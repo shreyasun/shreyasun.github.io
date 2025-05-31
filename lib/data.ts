@@ -33,7 +33,7 @@ export const experiences = [
   {
     title: "Associate Software Engineer",
     company: "Realtor.com",
-    description: "Software engineer building real estate experiences",
+    description: "Software engineer building real estate experiences.",
     date: "Feb 2025 - Present",
     link: "",
     image: rdc,
@@ -42,7 +42,7 @@ export const experiences = [
     title: "Engineering Manager",
     company: "Develop for Good",
     description:
-      "Data pipeline powering an analytics dashboard that delivers educational insights and visualizations for a nonprofit",
+      "Data pipeline powering an analytics dashboard that delivers educational insights and visualizations for a nonprofit.",
     date: "Oct 2024 - Feb 2025",
     link: "https://docs.google.com/document/d/1zujWHhhBjqxu38RzUXUCmSxdULfytIgtmFEMp9KdjMM/edit?tab=t.0",
     image: dfg,
@@ -51,7 +51,7 @@ export const experiences = [
     title: "Software Engineer Intern",
     company: "Realtor.com",
     description:
-      "Created a cost-saving storage solution for agent-consumer call recordings",
+      "Created a cost-saving storage solution for agent-consumer call recordings.",
     date: "Jun 2024 - Aug 2024",
     link: "https://shreyasundar.notion.site/My-Experience-as-an-SWE-Intern-at-Realtor-com-Summer-2024-1e8b5827586f4897b079d68a61ff344f",
     image: rdc,
@@ -60,7 +60,7 @@ export const experiences = [
     title: "Tutor",
     company: "Baskin School of Engineering - UC Santa Cruz",
     description:
-      "Tutor for CSE 101, Data Structures and Algorithms",
+      "Tutor for CSE 101, Data Structures and Algorithms.",
     date: "Sep 2023 - Apr 2024",
     image: bsoe,
   },
@@ -68,7 +68,7 @@ export const experiences = [
     title: "Software Developer Intern",
     company: "UC Santa Cruz Genomics Institute",
     description:
-      "Contributed to the development of a genomic data visualization application",
+      "Contributed to the development of a genomic data visualization application.",
     date: "Nov 2022 - May 2024",
     link: "https://shreyasundar.notion.site/My-Experience-as-an-SDE-Intern-at-UC-Santa-Cruz-Genomics-Institute-2022-2024-5e90e55b975940458d400eaae9a8c399?pvs=25",
     image: gi,
@@ -77,7 +77,7 @@ export const experiences = [
     title: "Co-President",
     company: "Creative Tech Design @ UCSC",
     description:
-      "Led UCSC's premier UI/UX Design Organization",
+      "Led UCSC's premier UI/UX Design Organization.",
     date: "Sep 2022 - Mar 2024",
     link: "",
     image: ctd,
@@ -86,7 +86,7 @@ export const experiences = [
     title: "Web Developer",
     company: "Tech4Good Research Laboratory",
     description:
-      "Contributed to development and design of several full stack applications",
+      "Contributed to development and design of several full stack applications.",
     date: "Mar 2022 - Sep 2023",
     link: "",
     image: t4g,
