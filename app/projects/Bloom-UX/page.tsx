@@ -72,7 +72,7 @@ export default function BloomUX() {
       <div className="w-full m-10">
         <h1 className="text-2xl sm:text-3xl font-bold text-blue">Research</h1>
         <h1 className="text-2xl sm:text-3xl font-bold">Surveys</h1>
-        <p>We conducted a survey with 12 individuals to gain insight about their shopping preferences. We aimed to get information about individuals' preferred mode of shopping, their online shopping process, and what they like or dislike about the shopping experience.</p>
+        <p>We conducted a survey with 12 individuals to gain insight about their shopping preferences. We aimed to get information about individuals`&apos;` preferred mode of shopping, their online shopping process, and what they like or dislike about the shopping experience.</p>
         <Image
           src={SurveyQs}
           alt="Survey"
@@ -81,7 +81,7 @@ export default function BloomUX() {
           className="rounded-lg object-cover w-400 sm:w-300 h-auto mx-auto m-5"
           priority
         />
-        <p>Survey responses showed that our users get frustrated when a site's user interface is too cluttered, when checking out is complicated, and when there isn't enough information about a product.</p>
+        <p>Survey responses showed that our users get frustrated when a site`&apos;`s user interface is too cluttered, when checking out is complicated, and when there isn`&apos;`t enough information about a product.</p>
         <Image
           src={LikesDislikes}
           alt="Survey"
@@ -115,7 +115,7 @@ export default function BloomUX() {
       </div>
       <div className="w-full m-10">
         <h1 className="text-2xl sm:text-3xl font-bold">Competitive Analysis</h1>
-        <p>After getting a better picture of our users, we wanted to see what was already out there and how we can adapt existing products to our users' wants and needs. We looked at the advantages and disdvantages of the secondhand store competitors ThredUp, Poshmark, and Depop. We also added in H&M for analysis because we thought it’d be good to have variety and have an opportunity to take a look at a clothing store that appeals to a broad amount of people. After looking at the following websites, we observed that most websites had filter options to optimize product search, the amount of clothing on the site felt overwhelming a lot of the time.</p>
+        <p>After getting a better picture of our users, we wanted to see what was already out there and how we can adapt existing products to our users`&apos;` wants and needs. We looked at the advantages and disdvantages of the secondhand store competitors ThredUp, Poshmark, and Depop. We also added in H&M for analysis because we thought it’d be good to have variety and have an opportunity to take a look at a clothing store that appeals to a broad amount of people. After looking at the following websites, we observed that most websites had filter options to optimize product search, the amount of clothing on the site felt overwhelming a lot of the time.</p>
         <Image
             src={comp_analysis}
             alt="Competitive Analysis"
@@ -192,7 +192,7 @@ export default function BloomUX() {
       </div>
       <div className="w-full m-10">
         <h1 className="text-2xl sm:text-3xl font-bold text-blue">High Fidelity Iterations and Final Design</h1>
-        <p>We continued to develop our final designs by continually iterating upon our low-fidelity designs. We collaboratively brainstormed additional features, decided on a color scheme, and compared and refined each others' designs.</p>
+        <p>We continued to develop our final designs by continually iterating upon our low-fidelity designs. We collaboratively brainstormed additional features, decided on a color scheme, and compared and refined each others`&apos;` designs.</p>
       </div>
       <div className="w-full m-10">
         <h1 className="text-2xl sm:text-3xl font-bold">Round 1 Iterations</h1>

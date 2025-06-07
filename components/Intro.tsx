@@ -46,6 +46,12 @@ export default function Intro() {
         <span className="font-bold">Hello, I&apos;m Shreya. 👩🏽‍💻</span> <br/>I&apos;m a{" "}
         Software Engineer passionate about crafting innovative solutions that drive social good.
       </motion.p>
+      <motion.p className="mb-4 mt-4 px-4 text-1l font-medium !leading-[1.5] sm:text-xl"
+        initial={{opacity: 0, y: 100}}
+        animate={{opacity: 1, y: 0}}
+      >
+        I bring a versatile blend of design, development, and product management skills to build impactful, user-centered technology.
+      </motion.p>
 
       <br />
 
