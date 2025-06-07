@@ -1,16 +1,16 @@
-import rdc from "@/lib/rdc_logo.png"
-import dfg from "@/lib/dfg_logo.png"
-import bsoe from "@/lib/bsoe_logo.png"
-import t4g from "@/lib/t4g_logo.jpg"
-import gi from "@/lib/ucsc-gi_logo.jpg"
-import ctd from "@/lib/ctd_logo.jpg"
+import rdc from "@/lib/logos/rdc_logo.png"
+import dfg from "@/lib/logos/dfg_logo.png"
+import bsoe from "@/lib/logos/bsoe_logo.png"
+import t4g from "@/lib/logos/t4g_logo.jpg"
+import gi from "@/lib/logos/ucsc-gi_logo.jpg"
+import ctd from "@/lib/logos/ctd_logo.jpg"
 //
-import monami from "@/lib/mon_ami_cover.png"
-import dfg_proj from "@/lib/dfg_proj.png"
-import bloom from "@/lib/bloom_cover.png"
-import rdc_sum from "@/lib/rdc_sum.png"
-import jeo from "@/lib/jeo.png"
-import booktessera from "@/lib/booktessera.png"
+import monami from "@/lib/cover/mon_ami_cover.png"
+import dfg_proj from "@/lib/cover/dfg_proj.png"
+import bloom from "@/lib/cover/bloom_cover.png"
+import rdc_sum from "@/lib/cover/rdc_sum.png"
+import jeo from "@/lib/cover/jeo.png"
+import booktessera from "@/lib/cover/booktessera.png"
 
 
 
@@ -44,7 +44,7 @@ export const experiences = [
     description:
       "Data pipeline powering an analytics dashboard that delivers educational insights and visualizations for a nonprofit.",
     date: "Oct 2024 - Feb 2025",
-    link: "https://docs.google.com/document/d/1zujWHhhBjqxu38RzUXUCmSxdULfytIgtmFEMp9KdjMM/edit?tab=t.0",
+    link: "/projects/Develop-For-Good",
     image: dfg,
   },
   {
@@ -99,7 +99,7 @@ export const projects = [
     description:
       "A cost-saving storage solution for agent-consumer call recordings.",
     tools: ["Amazon Web Services", "IAM", "S3", "Terraform", "Python", "PostgreSQL"],
-    link: "https://docs.google.com/presentation/d/1mvN4W-jtCX7kPPjWaKbAsp4zlKWXUNED872lftbwbss/edit?slide=id.g13bbb6e15e6_0_0#slide=id.g13bbb6e15e6_0_0",
+    link: "/projects/RDC-Internship",
     image: rdc_sum
   },
   {
@@ -107,7 +107,7 @@ export const projects = [
     description:
       "Data pipeline powering an analytics dashboard that delivers educational insights and visualizations for a nonprofit.",
     tools: ["Google Cloud Platform", "BigQuery", "Cloud Run", "Looker Studio", "Python", "SQL"],
-    link: "",
+    link: "/projects/Develop-For-Good",
     image: dfg_proj
   },
   {
@@ -115,7 +115,7 @@ export const projects = [
     description:
       "Tool for users to create trivia cards that will be rendered into an interactive Jeopardy Board.",
     tools: ["React", "Node", "Express", "MongoDB", "Firebase"],
-    link: "https://github.com/shreyasun/jeopardy-maker",
+    link: "/projects/Jeopardy-Maker",
     image: jeo
   },
   {
@@ -123,7 +123,7 @@ export const projects = [
     description:
       "A ticketing platform to improve ticket purchasing process for event-goers.",
     tools: ["React.js", "Firestore", "Python", "Node", "Express"],
-    link: "https://github.com/BookTessera/BookTessera",
+    link: "/projects/BookTessera",
     image: booktessera
   },
   {
@@ -131,7 +131,7 @@ export const projects = [
     description:
       "Minimally designed secondhand clothing website that simplifies the online shopping experience.",
     tools: ["Figma", "Google Workspace", "Notion"],
-    link: "https://shreyasundar.notion.site/Bloom-Case-Study-50ea5165023f4257b00af778a80e6752",
+    link: "/projects/Bloom-UX",
     image: bloom
   },
   {
@@ -139,7 +139,7 @@ export const projects = [
     description:
       "All-in-one mental wellness platform that provides users mental health content and a supportive community.",
     tools: ["Figma", "Google Workspace", "Notion"],
-    link: "https://shreyasundar.notion.site/Mon-Ami-UX-Case-Study-33034bf8046048c796156365a7518fe5",
+    link: "/projects/Mon-Ami",
     image: monami
   },
 ] as const;
