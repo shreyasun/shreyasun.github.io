@@ -42,7 +42,7 @@ const page = () => {
                     <li>Use a different database, or use MongoDB Atlas on MongoDB Cloud. This would definitely help during deployment.</li>
                     <li>Significantly change my UI structure.</li>
                     <li>In hindsight, I realize that I could have created a lot more individual components with props to make my code a lot more cleaner and less repetitive. However while coding I was pretty much putting my ideas down and going with what worked at the moment!</li>
-                    <li>Continue to identify any more bugs... there's probably still some in there unfortunately</li>
+                    <li>Continue to identify any more bugs... there`&apos;`s probably still some in there unfortunately</li>
                 </ol>
                 ... and more!
             </p>

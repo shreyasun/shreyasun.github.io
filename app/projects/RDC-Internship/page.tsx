@@ -32,7 +32,7 @@ function RDC_Internship() {
       </div>
       <div className="w-full m-10">
         <h1 className="text-2xl sm:text-3xl font-bold">Intro</h1>
-        <p>From June 3 to August 16, 2024, I interned as a software engineer at Realtor.com, working in the Customer Experiences department on FocusFire, the development app behind ReadyConnect Concierge, a real estate referral platform. In this internship, I developed a more cost effective storage solution for call recordings using AWS S3.</p>
+        <p>From June to August, 2024, I interned as a software engineer at Realtor.com, working in the Customer Experiences department on FocusFire, the development app behind ReadyConnect Concierge, a real estate referral platform. In this internship, I developed a more cost effective storage solution for call recordings using AWS S3.</p>
         <p>Tools and technologies: Python, Amazon Web Services (IAM, S3), SQL (PostgreSQL), Terraform, Twilio</p>
       </div>
       <div className="w-full m-10">
