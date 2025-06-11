@@ -18,7 +18,7 @@ function Footer() {
         
         <div className='left-0 w-full py-4 text-center z--100'>
           Made with <FaHeart className="inline align-middle" /> by Shreya Sundar <FaCopyright className="inline align-middle"/> 2025 <br/>
-          Built with TypeScript and Next.js | <a href="https://youtu.be/sUKptmUVIBM" className="underline" target="_blank">Inspiration</a> and <a className="underline" href="https://github.com/shreyasun/shreya-sundar-portfolio" target="_blank">Code</a>
+          Built with TypeScript and Next.js
         </div>
       
       </motion.div>
