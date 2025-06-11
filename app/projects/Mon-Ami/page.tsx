@@ -22,7 +22,7 @@ import Link from "next/link";
 const page = () => {
   return (
     <div className="-mt-28 sm:-mt-36 px-4 sm:px-6 lg:px-12">
-          <div className="w-full mx-auto mt-4 mb-10 p-4 sm:p-6 md:p-8 bg-pink rounded-lg shadow-md flex flex-col sm:flex-row gap-6 transition-all duration-200 hover:backdrop-blur-lg">
+          <div className="w-full mx-auto m-9 mt-4 mb-10 p-4 sm:p-6 md:p-8 bg-pink rounded-lg shadow-md flex flex-col sm:flex-row gap-6 transition-all duration-200 hover:backdrop-blur-lg">
             <Image
               src={monami}
               alt="MonAmi Project visual"

@@ -60,7 +60,7 @@ const page = () => {
       </div>
         <div className="w-full m-10">
             <a
-            href="https://docs.google.com/document/d/1hjBvqoq0zneCcZTYWjvLQzewFjbkgU4WAn2RoOblrlA/edit?tab=t.0"
+            href="https://github.com/shreyasun/jeopardy-maker"
             target="_blank"
             rel="noopener noreferrer"
             >

@@ -50,7 +50,7 @@ export default function Intro() {
         initial={{opacity: 0, y: 100}}
         animate={{opacity: 1, y: 0}}
       >
-        I bring a versatile blend of design, development, and product management skills to build impactful, user-centered technology.
+        Product Design • Software Development • Project Management
       </motion.p>
 
       <br />
