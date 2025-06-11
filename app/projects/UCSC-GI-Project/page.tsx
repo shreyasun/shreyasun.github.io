@@ -61,7 +61,7 @@ const page = () => {
             rel="noopener noreferrer"
             >
             <h1 className="text-2xl sm:text-3xl font-bold text-blue underline mx-auto text-blue">
-                Here's a paper on this project!
+                Here&apos;s a paper on this project!
             </h1>
             </a>
           </div>

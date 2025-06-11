@@ -76,7 +76,7 @@ export default function DevelopForGoodPage() {
       </div>
       <div className="w-full m-10">
         <h1 className="text-2xl sm:text-3xl font-bold">Reflection 🪞</h1>
-        <p>(tbd)</p>
+        <p>Being an Engineering Manager for this project was an absolutely incredible experience and one from which I learned so much. I experienced and learned how to manage a team's workflow, communication, and processes. I experienced directly communicating with a client and understanding their needs and wants as it pertains to their goals. I learned how to build a product from scratch and plan out the technical and functional requirements and spread out the work amongst my time in our given timeline. Ultimately, I enjoyed this experience and believe that this experience sets me up well for future products I build.</p>
       </div>
     </div>
   );
