@@ -11,7 +11,7 @@ import bloom from "@/lib/cover/bloom_cover.png"
 import rdc_sum from "@/lib/cover/rdc_sum.png"
 import jeo from "@/lib/cover/jeo.png"
 import booktessera from "@/lib/cover/booktessera.png"
-
+import gi_cover from "@/lib/cover/gi_cover.png"
 
 
 export const links = [
@@ -98,7 +98,7 @@ export const projects = [
     title: "Realtor.com Internship",
     description:
       "A cost-saving storage solution for agent-consumer call recordings.",
-    tools: ["Amazon Web Services", "IAM", "S3", "Terraform", "Python", "PostgreSQL"],
+    tools: ["Software Development"],
     link: "/projects/RDC-Internship",
     image: rdc_sum
   },
@@ -106,15 +106,23 @@ export const projects = [
     title: "Develop for Good Project",
     description:
       "Data pipeline powering an analytics dashboard that delivers educational insights and visualizations for a nonprofit.",
-    tools: ["Google Cloud Platform", "BigQuery", "Cloud Run", "Looker Studio", "Python", "SQL"],
+    tools: ["Software Development", "Project Management"],
     link: "/projects/Develop-For-Good",
     image: dfg_proj
+  },
+  {
+    title: "UCSC Genomics Institute Internship Project",
+    description:
+      "Contributed to the development of a genomic data visualization application.",
+    tools: ["Software Development"],
+    link: "/projects/UCSC-GI-Project",
+    image: gi_cover
   },
   {
     title: "Jeopardy Maker",
     description:
       "Tool for users to create trivia cards that will be rendered into an interactive Jeopardy Board.",
-    tools: ["React", "Node", "Express", "MongoDB", "Firebase"],
+    tools: ["Software Development"],
     link: "/projects/Jeopardy-Maker",
     image: jeo
   },
@@ -122,7 +130,7 @@ export const projects = [
     title: "BookTessera",
     description:
       "A ticketing platform to improve ticket purchasing process for event-goers.",
-    tools: ["React.js", "Firestore", "Python", "Node", "Express"],
+    tools: ["Software Development"],
     link: "/projects/BookTessera",
     image: booktessera
   },
@@ -130,7 +138,7 @@ export const projects = [
     title: "Bloom",
     description:
       "Minimally designed secondhand clothing website that simplifies the online shopping experience.",
-    tools: ["Figma", "Google Workspace", "Notion"],
+    tools: ["Product Design"],
     link: "/projects/Bloom-UX",
     image: bloom
   },
@@ -138,7 +146,7 @@ export const projects = [
     title: "Mon Ami",
     description:
       "All-in-one mental wellness platform that provides users mental health content and a supportive community.",
-    tools: ["Figma", "Google Workspace", "Notion"],
+    tools: ["Product Design"],
     link: "/projects/Mon-Ami",
     image: monami
   },
